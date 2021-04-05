@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TSV src="citation.tsv.02">
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">title</elem>
+    <elem name="title">Title</elem>
+    <elem name="description">Full title by which the Dataset is known.</elem>
+    <elem name="watermark">Enter title...</elem>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">0</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">TRUE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">TRUE</elem>
+    <elem name="required">TRUE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">subtitle</elem>
+    <elem name="title">Subtitle</elem>
+    <elem name="description">A secondary title used to amplify or state certain limitations on the main title.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">1</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">alternativeTitle</elem>
+    <elem name="title">Alternative Title</elem>
+    <elem name="description">A title by which the work is commonly referred, or an abbreviation of the title.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">2</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">otherId</elem>
+    <elem name="title">Other ID</elem>
+    <elem name="description">Another unique identifier that identifies this Dataset (e.g., producer's or another repository's number).</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">none</elem>
+    <elem name="displayOrder">3</elem>
+    <elem name="displayFormat">:</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">TRUE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">otherIdAgency</elem>
+    <elem name="title">Agency</elem>
+    <elem name="description">Name of agency which generated this identifier.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">4</elem>
+    <elem name="displayFormat">#VALUE</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">otherId</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">otherIdValue</elem>
+    <elem name="title">Identifier</elem>
+    <elem name="description">Other identifier that corresponds to this Dataset.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">5</elem>
+    <elem name="displayFormat">#VALUE</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">otherId</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">author</elem>
+    <elem name="title">Author</elem>
+    <elem name="description">The person(s), corporate body(ies), or agency(ies) responsible for creating the work.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">none</elem>
+    <elem name="displayOrder">6</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">TRUE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">TRUE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">authorName</elem>
+    <elem name="title">Name</elem>
+    <elem name="description">The author's Family Name, Given Name or the name of the organization responsible for this Dataset.</elem>
+    <elem name="watermark">FamilyName, GivenName or Organization</elem>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">7</elem>
+    <elem name="displayFormat">#VALUE</elem>
+    <elem name="advancedSearchField">TRUE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">TRUE</elem>
+    <elem name="showabovefold">TRUE</elem>
+    <elem name="required">TRUE</elem>
+    <elem name="parent">author</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">authorAffiliation</elem>
+    <elem name="title">Affiliation</elem>
+    <elem name="description">The organization with which the author is affiliated.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">8</elem>
+    <elem name="displayFormat">(#VALUE)</elem>
+    <elem name="advancedSearchField">TRUE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">TRUE</elem>
+    <elem name="showabovefold">TRUE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">author</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">authorIdentifierScheme</elem>
+    <elem name="title">Identifier Scheme</elem>
+    <elem name="description">Name of the identifier scheme (ORCID, ISNI).</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">9</elem>
+    <elem name="displayFormat">- #VALUE:</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">TRUE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">TRUE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">author</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">authorIdentifier</elem>
+    <elem name="title">Identifier</elem>
+    <elem name="description">Uniquely identifies an individual author or organization, according to various schemes.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">10</elem>
+    <elem name="displayFormat">#VALUE</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">TRUE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">author</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">datasetContact</elem>
+    <elem name="title">Contact</elem>
+    <elem name="description">The contact(s) for this Dataset.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">none</elem>
+    <elem name="displayOrder">11</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">TRUE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">TRUE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">datasetContactName</elem>
+    <elem name="title">Name</elem>
+    <elem name="description">The contact's Family Name, Given Name or the name of the organization.</elem>
+    <elem name="watermark">FamilyName, GivenName or Organization</elem>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">12</elem>
+    <elem name="displayFormat">#VALUE</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">TRUE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">datasetContact</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">datasetContactAffiliation</elem>
+    <elem name="title">Affiliation</elem>
+    <elem name="description">The organization with which the contact is affiliated.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">13</elem>
+    <elem name="displayFormat">(#VALUE)</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">TRUE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">datasetContact</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">datasetContactEmail</elem>
+    <elem name="title">E-mail</elem>
+    <elem name="description">The e-mail address(es) of the contact(s) for the Dataset. This will not be displayed.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">email</elem>
+    <elem name="displayOrder">14</elem>
+    <elem name="displayFormat">#EMAIL</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">TRUE</elem>
+    <elem name="required">TRUE</elem>
+    <elem name="parent">datasetContact</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">dsDescription</elem>
+    <elem name="title">Description</elem>
+    <elem name="description">A summary describing the purpose, nature, and scope of the Dataset.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">none</elem>
+    <elem name="displayOrder">15</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">TRUE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">TRUE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">dsDescriptionValue</elem>
+    <elem name="title">Text</elem>
+    <elem name="description">A summary describing the purpose, nature, and scope of the Dataset.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">textbox</elem>
+    <elem name="displayOrder">16</elem>
+    <elem name="displayFormat">#VALUE</elem>
+    <elem name="advancedSearchField">TRUE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">TRUE</elem>
+    <elem name="required">TRUE</elem>
+    <elem name="parent">dsDescription</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">dsDescriptionDate</elem>
+    <elem name="title">Date</elem>
+    <elem name="description">In cases where a Dataset contains more than one description (for example, one might be supplied by the data producer and another prepared by the data repository where the data are deposited), the date attribute is used to distinguish between the two descriptions. The date attribute follows the ISO convention of YYYY-MM-DD.</elem>
+    <elem name="watermark">YYYY-MM-DD</elem>
+    <elem name=" fieldType">date</elem>
+    <elem name="displayOrder">17</elem>
+    <elem name="displayFormat">(#VALUE)</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">TRUE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">dsDescription</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">subject</elem>
+    <elem name="title">Subject</elem>
+    <elem name="description">Domain-specific Subject Categories that are topically relevant to the Dataset.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">18</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">TRUE</elem>
+    <elem name="allowControlledVocabulary">TRUE</elem>
+    <elem name="allowmultiples">TRUE</elem>
+    <elem name="facetable">TRUE</elem>
+    <elem name="showabovefold">TRUE</elem>
+    <elem name="required">TRUE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">keyword</elem>
+    <elem name="title">Keyword</elem>
+    <elem name="description">Key terms that describe important aspects of the Dataset.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">none</elem>
+    <elem name="displayOrder">19</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">TRUE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">TRUE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">keywordValue</elem>
+    <elem name="title">Term</elem>
+    <elem name="description">Key terms that describe important aspects of the Dataset. Can be used for building keyword indexes and for classification and retrieval purposes. A controlled vocabulary can be employed. The vocab attribute is provided for specification of the controlled vocabulary in use, such as LCSH, MeSH, or others. The vocabURI attribute specifies the location for the full controlled vocabulary.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">20</elem>
+    <elem name="displayFormat">#VALUE</elem>
+    <elem name="advancedSearchField">TRUE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">TRUE</elem>
+    <elem name="showabovefold">TRUE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">keyword</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">keywordVocabulary</elem>
+    <elem name="title">Vocabulary</elem>
+    <elem name="description">For the specification of the keyword controlled vocabulary in use, such as LCSH, MeSH, or others.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">21</elem>
+    <elem name="displayFormat">(#VALUE)</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">TRUE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">keyword</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">keywordVocabularyURI</elem>
+    <elem name="title">Vocabulary URL</elem>
+    <elem name="description">Keyword vocabulary URL points to the web presence that describes the keyword vocabulary, if appropriate. Enter an absolute URL where the keyword vocabulary web site is found, such as http://www.my.org.</elem>
+    <elem name="watermark">Enter full URL, starting with http://</elem>
+    <elem name=" fieldType">url</elem>
+    <elem name="displayOrder">22</elem>
+    <elem name="displayFormat">&lt;a href="#VALUE"&gt;#VALUE&lt;/a&gt;</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">TRUE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">keyword</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">topicClassification</elem>
+    <elem name="title">Topic Classification</elem>
+    <elem name="description">The classification field indicates the broad important topic(s) and subjects that the data cover. Library of Congress subject terms may be used here.  </elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">none</elem>
+    <elem name="displayOrder">23</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">TRUE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">topicClassValue</elem>
+    <elem name="title">Term</elem>
+    <elem name="description">Topic or Subject term that is relevant to this Dataset.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">24</elem>
+    <elem name="displayFormat">#VALUE</elem>
+    <elem name="advancedSearchField">TRUE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">TRUE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">topicClassification</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">topicClassVocab</elem>
+    <elem name="title">Vocabulary</elem>
+    <elem name="description">Provided for specification of the controlled vocabulary in use, e.g., LCSH, MeSH, etc.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">25</elem>
+    <elem name="displayFormat">(#VALUE)</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">topicClassification</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">topicClassVocabURI</elem>
+    <elem name="title">Vocabulary URL</elem>
+    <elem name="description">Specifies the URL location for the full controlled vocabulary.</elem>
+    <elem name="watermark">Enter full URL, starting with http://</elem>
+    <elem name=" fieldType">url</elem>
+    <elem name="displayOrder">26</elem>
+    <elem name="displayFormat">&lt;a href="#VALUE"&gt;#VALUE&lt;/a&gt;</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">topicClassification</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">publication</elem>
+    <elem name="title">Related Publication</elem>
+    <elem name="description">Publications that use the data from this Dataset.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">none</elem>
+    <elem name="displayOrder">27</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">TRUE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">publicationCitation</elem>
+    <elem name="title">Citation</elem>
+    <elem name="description">The full bibliographic citation for this related publication.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">textbox</elem>
+    <elem name="displayOrder">28</elem>
+    <elem name="displayFormat">#VALUE</elem>
+    <elem name="advancedSearchField">TRUE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">publication</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">publicationIDType</elem>
+    <elem name="title">ID Type</elem>
+    <elem name="description">The type of digital identifier used for this publication (e.g., Digital Object Identifier (DOI)).</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">29</elem>
+    <elem name="displayFormat">#VALUE: </elem>
+    <elem name="advancedSearchField">TRUE</elem>
+    <elem name="allowControlledVocabulary">TRUE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">publication</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">publicationIDNumber</elem>
+    <elem name="title">ID Number</elem>
+    <elem name="description">The identifier for the selected ID type.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">30</elem>
+    <elem name="displayFormat">#VALUE</elem>
+    <elem name="advancedSearchField">TRUE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">publication</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">publicationURL</elem>
+    <elem name="title">URL</elem>
+    <elem name="description">Link to the publication web page (e.g., journal article page, archive record page, or other).</elem>
+    <elem name="watermark">Enter full URL, starting with http://</elem>
+    <elem name=" fieldType">url</elem>
+    <elem name="displayOrder">31</elem>
+    <elem name="displayFormat">&lt;a href="#VALUE"&gt;#VALUE&lt;/a&gt;</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">publication</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">notesText</elem>
+    <elem name="title">Notes</elem>
+    <elem name="description">Additional important information about the Dataset.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">textbox</elem>
+    <elem name="displayOrder">32</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">TRUE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">language</elem>
+    <elem name="title">Language</elem>
+    <elem name="description">Language of the Dataset</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">33</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">TRUE</elem>
+    <elem name="allowControlledVocabulary">TRUE</elem>
+    <elem name="allowmultiples">TRUE</elem>
+    <elem name="facetable">TRUE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">producer</elem>
+    <elem name="title">Producer</elem>
+    <elem name="description">Person or organization with the financial or administrative responsibility over this Dataset</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">none</elem>
+    <elem name="displayOrder">34</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">TRUE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">producerName</elem>
+    <elem name="title">Name</elem>
+    <elem name="description">Producer name</elem>
+    <elem name="watermark">FamilyName, GivenName or Organization</elem>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">35</elem>
+    <elem name="displayFormat">#VALUE</elem>
+    <elem name="advancedSearchField">TRUE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">TRUE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">producer</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">producerAffiliation</elem>
+    <elem name="title">Affiliation</elem>
+    <elem name="description">The organization with which the producer is affiliated.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">36</elem>
+    <elem name="displayFormat">(#VALUE)</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">producer</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">producerAbbreviation</elem>
+    <elem name="title">Abbreviation</elem>
+    <elem name="description">The abbreviation by which the producer is commonly known. (ex. IQSS, ICPSR)</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">37</elem>
+    <elem name="displayFormat">(#VALUE)</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">producer</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">producerURL</elem>
+    <elem name="title">URL</elem>
+    <elem name="description">Producer URL points to the producer's web presence, if appropriate. Enter an absolute URL where the producer's web site is found, such as http://www.my.org.  </elem>
+    <elem name="watermark">Enter full URL, starting with http://</elem>
+    <elem name=" fieldType">url</elem>
+    <elem name="displayOrder">38</elem>
+    <elem name="displayFormat">&lt;a href="#VALUE"&gt;#VALUE&lt;/a&gt;</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">producer</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">producerLogoURL</elem>
+    <elem name="title">Logo URL</elem>
+    <elem name="description">URL for the producer's logo, which points to this  producer's web-accessible logo image. Enter an absolute URL where the producer's logo image is found, such as http://www.my.org/images/logo.gif.</elem>
+    <elem name="watermark">Enter full URL for image, starting with http://</elem>
+    <elem name=" fieldType">url</elem>
+    <elem name="displayOrder">39</elem>
+    <elem name="displayFormat">&lt;img src="#VALUE" alt="#NAME" class="metadata-logo"/&gt;&lt;br/&gt;</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">producer</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">productionDate</elem>
+    <elem name="title">Production Date</elem>
+    <elem name="description">Date when the data collection or other materials were produced (not distributed, published or archived).</elem>
+    <elem name="watermark">YYYY-MM-DD</elem>
+    <elem name=" fieldType">date</elem>
+    <elem name="displayOrder">40</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">TRUE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">TRUE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">productionPlace</elem>
+    <elem name="title">Production Place</elem>
+    <elem name="description">The location where the data collection and any other related materials were produced.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">41</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">contributor</elem>
+    <elem name="title">Contributor</elem>
+    <elem name="description">The organization or person responsible for either collecting, managing, or otherwise contributing in some form to the development of the resource.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">none</elem>
+    <elem name="displayOrder">42</elem>
+    <elem name="displayFormat">:</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">TRUE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">contributorType</elem>
+    <elem name="title">Type</elem>
+    <elem name="description">The type of contributor of the  resource.  </elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">43</elem>
+    <elem name="displayFormat">#VALUE </elem>
+    <elem name="advancedSearchField">TRUE</elem>
+    <elem name="allowControlledVocabulary">TRUE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">TRUE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">contributor</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">contributorName</elem>
+    <elem name="title">Name</elem>
+    <elem name="description">The Family Name, Given Name or organization name of the contributor.</elem>
+    <elem name="watermark">FamilyName, GivenName or Organization</elem>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">44</elem>
+    <elem name="displayFormat">#VALUE</elem>
+    <elem name="advancedSearchField">TRUE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">TRUE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">contributor</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">grantNumber</elem>
+    <elem name="title">Grant Information</elem>
+    <elem name="description">Grant Information</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">none</elem>
+    <elem name="displayOrder">45</elem>
+    <elem name="displayFormat">:</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">TRUE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">grantNumberAgency</elem>
+    <elem name="title">Grant Agency</elem>
+    <elem name="description">Grant Number Agency</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">46</elem>
+    <elem name="displayFormat">#VALUE</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">grantNumber</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">grantNumberValue</elem>
+    <elem name="title">Grant Number</elem>
+    <elem name="description">The grant or contract number of the project that  sponsored the effort.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">47</elem>
+    <elem name="displayFormat">#VALUE</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">grantNumber</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">distributor</elem>
+    <elem name="title">Distributor</elem>
+    <elem name="description">The organization designated by the author or producer to generate copies of the particular work including any necessary editions or revisions.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">none</elem>
+    <elem name="displayOrder">48</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">TRUE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">distributorName</elem>
+    <elem name="title">Name</elem>
+    <elem name="description">Distributor name</elem>
+    <elem name="watermark">FamilyName, GivenName or Organization</elem>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">49</elem>
+    <elem name="displayFormat">#VALUE</elem>
+    <elem name="advancedSearchField">TRUE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">TRUE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">distributor</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">distributorAffiliation</elem>
+    <elem name="title">Affiliation</elem>
+    <elem name="description">The organization with which the distributor contact is affiliated.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">50</elem>
+    <elem name="displayFormat">(#VALUE)</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">distributor</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">distributorAbbreviation</elem>
+    <elem name="title">Abbreviation</elem>
+    <elem name="description">The abbreviation by which this distributor is commonly known (e.g., IQSS, ICPSR).</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">51</elem>
+    <elem name="displayFormat">(#VALUE)</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">distributor</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">distributorURL</elem>
+    <elem name="title">URL</elem>
+    <elem name="description">Distributor URL points to the distributor's web presence, if appropriate. Enter an absolute URL where the distributor's web site is found, such as http://www.my.org.</elem>
+    <elem name="watermark">Enter full URL, starting with http://</elem>
+    <elem name=" fieldType">url</elem>
+    <elem name="displayOrder">52</elem>
+    <elem name="displayFormat">&lt;a href="#VALUE"&gt;#VALUE&lt;/a&gt;</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">distributor</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">distributorLogoURL</elem>
+    <elem name="title">Logo URL</elem>
+    <elem name="description">URL of the distributor's logo, which points to this  distributor's web-accessible logo image. Enter an absolute URL where the distributor's logo image is found, such as http://www.my.org/images/logo.gif.</elem>
+    <elem name="watermark">Enter full URL for image, starting with http://</elem>
+    <elem name=" fieldType">url</elem>
+    <elem name="displayOrder">53</elem>
+    <elem name="displayFormat">&lt;img src="#VALUE" alt="#NAME" class="metadata-logo"/&gt;&lt;br/&gt;</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">distributor</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">distributionDate</elem>
+    <elem name="title">Distribution Date</elem>
+    <elem name="description">Date that the work was made available for distribution/presentation.</elem>
+    <elem name="watermark">YYYY-MM-DD</elem>
+    <elem name=" fieldType">date</elem>
+    <elem name="displayOrder">54</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">TRUE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">TRUE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">depositor</elem>
+    <elem name="title">Depositor</elem>
+    <elem name="description">The person (Family Name, Given Name) or the name of the organization that deposited this Dataset to the repository.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">55</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">dateOfDeposit</elem>
+    <elem name="title">Deposit Date</elem>
+    <elem name="description">Date that the Dataset was deposited into the repository.</elem>
+    <elem name="watermark">YYYY-MM-DD</elem>
+    <elem name=" fieldType">date</elem>
+    <elem name="displayOrder">56</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">TRUE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">timePeriodCovered</elem>
+    <elem name="title">Time Period Covered</elem>
+    <elem name="description">Time period to which the data refer. This item reflects the time period covered by the data, not the dates of coding or making documents machine-readable or the dates the data were collected. Also known as span.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">none</elem>
+    <elem name="displayOrder">57</elem>
+    <elem name="displayFormat">;</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">TRUE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">timePeriodCoveredStart</elem>
+    <elem name="title">Start</elem>
+    <elem name="description">Start date which reflects the time period covered by the data, not the dates of coding or making documents machine-readable or the dates the data were collected.</elem>
+    <elem name="watermark">YYYY-MM-DD</elem>
+    <elem name=" fieldType">date</elem>
+    <elem name="displayOrder">58</elem>
+    <elem name="displayFormat">#NAME: #VALUE </elem>
+    <elem name="advancedSearchField">TRUE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">TRUE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">timePeriodCovered</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">timePeriodCoveredEnd</elem>
+    <elem name="title">End</elem>
+    <elem name="description">End date which reflects the time period covered by the data, not the dates of coding or making documents machine-readable or the dates the data were collected.</elem>
+    <elem name="watermark">YYYY-MM-DD</elem>
+    <elem name=" fieldType">date</elem>
+    <elem name="displayOrder">59</elem>
+    <elem name="displayFormat">#NAME: #VALUE </elem>
+    <elem name="advancedSearchField">TRUE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">TRUE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">timePeriodCovered</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">dateOfCollection</elem>
+    <elem name="title">Date of Collection</elem>
+    <elem name="description">Contains the date(s) when the data were collected.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">none</elem>
+    <elem name="displayOrder">60</elem>
+    <elem name="displayFormat">;</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">TRUE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">dateOfCollectionStart</elem>
+    <elem name="title">Start</elem>
+    <elem name="description">Date when the data collection started.</elem>
+    <elem name="watermark">YYYY-MM-DD</elem>
+    <elem name=" fieldType">date</elem>
+    <elem name="displayOrder">61</elem>
+    <elem name="displayFormat">#NAME: #VALUE </elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">dateOfCollection</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">dateOfCollectionEnd</elem>
+    <elem name="title">End</elem>
+    <elem name="description">Date when the data collection ended.</elem>
+    <elem name="watermark">YYYY-MM-DD</elem>
+    <elem name=" fieldType">date</elem>
+    <elem name="displayOrder">62</elem>
+    <elem name="displayFormat">#NAME: #VALUE </elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">dateOfCollection</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">kindOfData</elem>
+    <elem name="title">Kind of Data</elem>
+    <elem name="description">Type of data included in the file: survey data, census/enumeration data, aggregate data, clinical data, event/transaction data, program source code, machine-readable text, administrative records data, experimental data, psychological test, textual data, coded textual, coded documents, time budget diaries, observation data/ratings, process-produced data, or other.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">63</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">TRUE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">TRUE</elem>
+    <elem name="facetable">TRUE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">series</elem>
+    <elem name="title">Series</elem>
+    <elem name="description">Information about the Dataset series.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">none</elem>
+    <elem name="displayOrder">64</elem>
+    <elem name="displayFormat">:</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">seriesName</elem>
+    <elem name="title">Name</elem>
+    <elem name="description">Name of the dataset series to which the Dataset belongs.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">65</elem>
+    <elem name="displayFormat">#VALUE</elem>
+    <elem name="advancedSearchField">TRUE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">TRUE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">series</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">seriesInformation</elem>
+    <elem name="title">Information</elem>
+    <elem name="description">History of the series and summary of those features that apply to the series as a whole.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">textbox</elem>
+    <elem name="displayOrder">66</elem>
+    <elem name="displayFormat">#VALUE</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">series</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">software</elem>
+    <elem name="title">Software</elem>
+    <elem name="description">Information about the software used to generate the Dataset.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">none</elem>
+    <elem name="displayOrder">67</elem>
+    <elem name="displayFormat">,</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">TRUE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">softwareName</elem>
+    <elem name="title">Name</elem>
+    <elem name="description">Name of software used to generate the Dataset.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">68</elem>
+    <elem name="displayFormat">#VALUE</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">TRUE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">software</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">softwareVersion</elem>
+    <elem name="title">Version</elem>
+    <elem name="description">Version of the software used to generate the Dataset.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">69</elem>
+    <elem name="displayFormat">#NAME: #VALUE</elem>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent">software</elem>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">relatedMaterial</elem>
+    <elem name="title">Related Material</elem>
+    <elem name="description">Any material related to this Dataset.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">textbox</elem>
+    <elem name="displayOrder">70</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">TRUE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">relatedDatasets</elem>
+    <elem name="title">Related Datasets</elem>
+    <elem name="description">Any Datasets that are related to this Dataset, such as previous research on this subject.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">textbox</elem>
+    <elem name="displayOrder">71</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">TRUE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">otherReferences</elem>
+    <elem name="title">Other References</elem>
+    <elem name="description">Any references that would serve as background or supporting material to this Dataset.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">text</elem>
+    <elem name="displayOrder">72</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">TRUE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">dataSources</elem>
+    <elem name="title">Data Sources</elem>
+    <elem name="description">List of books, articles, serials, or machine-readable data files that served as the sources of the data collection.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">textbox</elem>
+    <elem name="displayOrder">73</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">TRUE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">originOfSources</elem>
+    <elem name="title">Origin of Sources</elem>
+    <elem name="description">For historical materials, information about the origin of the sources and the rules followed in establishing the sources should be specified.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">textbox</elem>
+    <elem name="displayOrder">74</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">characteristicOfSources</elem>
+    <elem name="title">Characteristic of Sources Noted</elem>
+    <elem name="description">Assessment of characteristics and source material.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">textbox</elem>
+    <elem name="displayOrder">75</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+  <row>
+    <elem name="datasetField"/>
+    <elem name="name">accessToSources</elem>
+    <elem name="title">Documentation and Access to Sources</elem>
+    <elem name="description">Level of documentation of the original sources.</elem>
+    <elem name="watermark"/>
+    <elem name=" fieldType">textbox</elem>
+    <elem name="displayOrder">76</elem>
+    <elem name="displayFormat"/>
+    <elem name="advancedSearchField">FALSE</elem>
+    <elem name="allowControlledVocabulary">FALSE</elem>
+    <elem name="allowmultiples">FALSE</elem>
+    <elem name="facetable">FALSE</elem>
+    <elem name="showabovefold">FALSE</elem>
+    <elem name="required">FALSE</elem>
+    <elem name="parent"/>
+  </row>
+</TSV>
