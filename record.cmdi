@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/1" xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_citation" xmlns:js="http://www.w3.org/2005/xpath-functions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_citation/xsd" CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdProfile>clarin.eu:cr1:p_citation</cmd:MdProfile>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList/>
+    <cmd:JournalFileProxyList/>
+    <cmd:ResourceRelationList/>
+  </cmd:Resources>
+  <cmd:Components>
+    <cmdp:citation>
+      <cmdp:title>NARCIS metadata in json format</cmdp:title>
+      <cmdp:author>
+        <cmdp:authorName>Tykhonov, Vyacheslav</cmdp:authorName>
+        <cmdp:authorAffiliation>DANS</cmdp:authorAffiliation>
+      </cmdp:author>
+      <cmdp:datasetContact>
+        <cmdp:datasetContactName>Tykhonov, Vyacheslav</cmdp:datasetContactName>
+        <cmdp:datasetContactAffiliation>DANS</cmdp:datasetContactAffiliation>
+      </cmdp:datasetContact>
+      <cmdp:dsDescription>
+        <cmdp:dsDescriptionValue>Metadata harvested from NARCIS OAI-PMH endpoint and stored as json, more than 2 million records. Can be used as a source for Augementing NARCIS project https://github.com/Dans-labs/augmenting-narcis</cmdp:dsDescriptionValue>
+      </cmdp:dsDescription>
+      <cmdp:subject/>
+      <cmdp:depositor>Tykhonov, Vyacheslav</cmdp:depositor>
+      <cmdp:dateOfDeposit>2019-06-02</cmdp:dateOfDeposit>
+    </cmdp:citation>
+  </cmd:Components>
+</cmd:CMD>
