@@ -1,0 +1,281 @@
+@prefix cmdi: <https://dataverse.org/schema/cmdi/> .
+@prefix cmdidoc: <https://dataverse.org/schema/cmdi/#> .
+@prefix keywords: <https://dataverse.org/schema/cmdi/Keyword#> .
+@prefix ns1: <https://dataverse.org/schema/cmdi/xsi:> .
+@prefix ns2: <https://dataverse.org/schema/cmdi/xmlns:> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://dataverse.org/schema/cmdi> cmdidoc:document cmdi:CMD ;
+    cmdi:Access cmdi:Contact ;
+    cmdi:Actor cmdi:ActorLanguages,
+        cmdi:BirthCountry ;
+    cmdi:ActorLanguage cmdi:Language ;
+    cmdi:ActorLanguages cmdi:ActorLanguage ;
+    cmdi:BirthCountry cmdi:Country ;
+    cmdi:CMD cmdidoc:attributes,
+        cmdi:Components,
+        cmdi:Header,
+        cmdi:Resources ;
+    cmdi:Components cmdi:OralHistoryInterviewDANS ;
+    cmdi:Creator cmdi:Contact ;
+    cmdi:Creators cmdi:Creator ;
+    cmdi:False cmdidoc:document ;
+    cmdi:InterviewAudio cmdi:SpeechTechnicalMetadata ;
+    cmdi:InterviewContent cmdi:InterviewSummary,
+        cmdi:Mission,
+        cmdi:TopicList ;
+    cmdi:InterviewGeneral cmdi:Access,
+        cmdi:Creators,
+        cmdi:Location,
+        cmdi:Modality,
+        cmdi:Multilinguality ;
+    cmdi:InterviewMethod cmdi:TopicList ;
+    cmdi:Interviewee cmdi:Actor ;
+    cmdi:Interviewer cmdi:Actor ;
+    cmdi:Language cmdi:ISO639 ;
+    cmdi:Location cmdi:Continent,
+        cmdi:Country ;
+    cmdi:OralHistoryInterviewDANS cmdi:InterviewAudio,
+        cmdi:InterviewContent,
+        cmdi:InterviewGeneral,
+        cmdi:InterviewMethod,
+        cmdi:Interviewee,
+        cmdi:Interviewer ;
+    cmdi:Resources cmdi:ResourceProxyList ;
+    cmdi:SpeechTechnicalMetadata cmdi:MimeType .
+
+cmdi:InterviewKeyWords cmdi:Keyword [ cmdi:Keyword [ cmdi:Keyword "HiÃ«rarchie" ],
+                [ cmdi:Keyword "Angst" ],
+                [ cmdi:Keyword "Indonesische infiltraties" ],
+                [ cmdi:Keyword "Inspraak" ],
+                [ cmdi:Keyword "Onderofficieren" ],
+                [ cmdi:Keyword "Bedreigende situaties" ] ;
+            cmdi:TimeInterval "01:30:00-01:40:00" ],
+        [ cmdi:Keyword [ cmdi:Keyword "Korps Mariniers" ],
+                [ cmdi:Keyword "Militaire dienstplicht" ],
+                [ cmdi:Keyword "Onderofficiersopleiding" ],
+                [ cmdi:Keyword "Militaire opleiding" ] ;
+            cmdi:TimeInterval "00:00:00-00:10:00" ],
+        [ cmdi:Keyword [ cmdi:Keyword "Afzien" ],
+                [ cmdi:Keyword "Bangmakerij" ],
+                [ cmdi:Keyword "Over de schreef" ],
+                [ cmdi:Keyword "Indonesische infiltraties" ],
+                [ cmdi:Keyword "Moreel" ],
+                [ cmdi:Keyword "Impact op persoonlijke ontwikkeling" ],
+                [ cmdi:Keyword "Krijgsgevangenen" ] ;
+            cmdi:TimeInterval "01:20:00-01:30:00" ],
+        [ cmdi:Keyword [ cmdi:Keyword "Ziek tijdens uitzending" ],
+                [ cmdi:Keyword "Impact op persoonlijke ontwikkeling" ],
+                [ cmdi:Keyword "Gewonden" ],
+                [ cmdi:Keyword "Ongelukken" ],
+                [ cmdi:Keyword "Terugreis" ],
+                [ cmdi:Keyword "Overdracht" ] ;
+            cmdi:TimeInterval "02:00:00-02:10:00" ],
+        [ cmdi:Keyword "Impact op persoonlijke ontwikkeling" ;
+            cmdi:TimeInterval "02:50:00-03:00:00" ],
+        [ cmdi:Keyword [ cmdi:Keyword "Aankomst missiegebied" ],
+                [ cmdi:Keyword "s" ],
+                [ cmdi:Keyword "Papoea#39" ],
+                [ cmdi:Keyword "Beschrijving legering" ],
+                [ cmdi:Keyword "Functie en taak" ],
+                [ cmdi:Keyword "Slechte voorbereiding" ],
+                [ cmdi:Keyword "Eerste indrukken" ] ;
+            cmdi:TimeInterval "00:30:00-00:40:00" ],
+        [ cmdi:Keyword [ cmdi:Keyword "Duur uitzending" ],
+                [ cmdi:Keyword "Eerste indrukken" ],
+                [ cmdi:Keyword "Afscheid thuisfront" ],
+                [ cmdi:Keyword "Wijde wereld" ],
+                [ cmdi:Keyword "Informatievoorziening" ] ;
+            cmdi:TimeInterval "00:20:00-00:30:00" ],
+        [ cmdi:Keyword [ cmdi:Keyword "Contact met lokale bevolking" ],
+                [ cmdi:Keyword "Medische zorg" ],
+                [ cmdi:Keyword "Papoea#39" ],
+                [ cmdi:Keyword "Korps Mariniers" ],
+                [ cmdi:Keyword "Patrouilles" ],
+                [ cmdi:Keyword "s" ],
+                [ cmdi:Keyword "Hospik" ] ;
+            cmdi:TimeInterval "00:40:00-00:50:00" ],
+        [ cmdi:Keyword [ cmdi:Keyword "Frustratie" ],
+                [ cmdi:Keyword "Invaliditeit" ],
+                [ cmdi:Keyword "Miskenning" ],
+                [ cmdi:Keyword "Gebrek aan nazorg" ],
+                [ cmdi:Keyword "Onderscheidingen" ],
+                [ cmdi:Keyword "Belastende herinneringen" ] ;
+            cmdi:TimeInterval "02:40:00-02:50:00" ],
+        [ cmdi:Keyword [ cmdi:Keyword "Impact op persoonlijke ontwikkeling" ],
+                [ cmdi:Keyword "Gewonden" ],
+                [ cmdi:Keyword "Gezondheidsklachten na terugkeer" ],
+                [ cmdi:Keyword "Invaliditeit" ],
+                [ cmdi:Keyword "Ziek tijdens uitzending" ] ;
+            cmdi:TimeInterval "02:10:00-02:20:00" ],
+        [ cmdi:Keyword [ cmdi:Keyword "Invaliditeit" ],
+                [ cmdi:Keyword "Verwerking" ],
+                [ cmdi:Keyword "Impact op persoonlijke ontwikkeling" ],
+                [ cmdi:Keyword "Onderscheidingen" ],
+                [ cmdi:Keyword "Teleurgesteld in defensie" ],
+                [ cmdi:Keyword "ReÃ¼nies" ],
+                [ cmdi:Keyword "Miskenning" ],
+                [ cmdi:Keyword "Doofpot" ] ;
+            cmdi:TimeInterval "02:30:00-02:40:00" ],
+        [ cmdi:Keyword [ cmdi:Keyword "Thuiskomen" ],
+                [ cmdi:Keyword "Aankomst in Nederland" ],
+                [ cmdi:Keyword "Nazorg Defensie" ],
+                [ cmdi:Keyword "Gebrek aan nazorg" ],
+                [ cmdi:Keyword "Uitkering" ],
+                [ cmdi:Keyword "Miskenning" ],
+                [ cmdi:Keyword "Invaliditeit" ],
+                [ cmdi:Keyword "Aansprakelijkheid" ] ;
+            cmdi:TimeInterval "02:20:00-02:30:00" ],
+        [ cmdi:Keyword [ cmdi:Keyword "Militaire dienstplicht" ],
+                [ cmdi:Keyword "Beroepskader" ],
+                [ cmdi:Keyword "Functie en taak" ],
+                [ cmdi:Keyword "Kennisgeving uitzending" ] ;
+            cmdi:TimeInterval "00:10:00-00:20:00" ],
+        [ cmdi:Keyword [ cmdi:Keyword "Afzien" ],
+                [ cmdi:Keyword "Oefening in het veld" ],
+                [ cmdi:Keyword "Dood kameraad" ],
+                [ cmdi:Keyword "Patrouilles" ],
+                [ cmdi:Keyword "Begrafenis militair" ],
+                [ cmdi:Keyword "Klimatologische omstandigheden" ] ;
+            cmdi:TimeInterval "00:50:00-01:00:00" ],
+        [ cmdi:Keyword [ cmdi:Keyword "Legerarts" ],
+                [ cmdi:Keyword "Afzien" ],
+                [ cmdi:Keyword "Werkdruk" ],
+                [ cmdi:Keyword "Kameraadschap" ],
+                [ cmdi:Keyword "Elkaar erdoorheen slepen" ],
+                [ cmdi:Keyword "Anekdotes" ],
+                [ cmdi:Keyword "Gevoel van veiligheid" ],
+                [ cmdi:Keyword "Korps Mariniers" ],
+                [ cmdi:Keyword "Roofbouw plegen gezondheid" ] ;
+            cmdi:TimeInterval "01:40:00-01:50:00" ],
+        [ cmdi:Keyword [ cmdi:Keyword "Angst" ],
+                [ cmdi:Keyword "Geestelijke verzorging" ],
+                [ cmdi:Keyword "Legerarts" ],
+                [ cmdi:Keyword "Sancties" ],
+                [ cmdi:Keyword "s" ],
+                [ cmdi:Keyword "Militaire discipline" ],
+                [ cmdi:Keyword "Overspannen collega#39" ],
+                [ cmdi:Keyword "Patrouilles" ],
+                [ cmdi:Keyword "Indonesische infiltraties" ],
+                [ cmdi:Keyword "Roofbouw plegen gezondheid" ] ;
+            cmdi:TimeInterval "01:50:00-02:00:00" ],
+        [ cmdi:Keyword [ cmdi:Keyword "Lokale bevolking" ],
+                [ cmdi:Keyword "Inlichtingen" ],
+                [ cmdi:Keyword "Papoea#39" ],
+                [ cmdi:Keyword "s" ],
+                [ cmdi:Keyword "Indonesische infiltraties" ],
+                [ cmdi:Keyword "Gesneuvelden" ],
+                [ cmdi:Keyword "Beschrijving legering" ] ;
+            cmdi:TimeInterval "01:10:00-01:20:00" ],
+        [ cmdi:Keyword [ cmdi:Keyword "Patrouilles" ],
+                [ cmdi:Keyword "Emotionele verharding" ],
+                [ cmdi:Keyword "Korps Mariniers" ],
+                [ cmdi:Keyword "Afzien" ],
+                [ cmdi:Keyword "Verwerking" ],
+                [ cmdi:Keyword "Terugkeerreis" ],
+                [ cmdi:Keyword "Indonesische infiltraties" ] ;
+            cmdi:TimeInterval "01:00:00-01:10:00" ] .
+
+cmdidoc:attributes cmdi:CMDVersion "1.1" ;
+    cmdi:xmlns "http://www.clarin.eu/cmd/" ;
+    ns2:xsi "http://www.w3.org/2001/XMLSchema-instance" ;
+    ns1:schemaLocation "http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1369752611610/xsd" .
+
+cmdi:Access cmdi:Availability "All data including audio is accessible for authorised researchers." ;
+    cmdi:CatalogueLink "urn:nbn:nl:ui:13-k0n-lpw" ;
+    cmdi:DistributionMedium "Distribution medium will be decided in consultation with Access Contact" .
+
+cmdi:Continent cmdi:Code "EU" .
+
+cmdi:Creator cmdi:Role "Project Manager" .
+
+cmdi:Header cmdi:MdSelfLink "None" .
+
+cmdi:ISO639 cmdi:iso-639-3-code "nld" .
+
+cmdi:InterviewAudio cmdi:AudioFileName "IPNV_270.wav" ;
+    cmdi:AudioFormat "WAV" ;
+    cmdi:MediaType "audio" ;
+    cmdi:MicrophoneType "hardware internal" ;
+    cmdi:RecordingPlatformHardware "Edirol R-09 24-bit WAV/MP3 Recorder" ;
+    cmdi:RecordingPlatformSoftware "hardware internal" .
+
+cmdi:InterviewContent cmdi:Language "Dutch" .
+
+cmdi:InterviewGeneral cmdi:CreationDate "2007-10-08" ;
+    cmdi:Duration "03:00:00" ;
+    cmdi:Genre "interview" ;
+    cmdi:NumberOfSpeakers "2" ;
+    cmdi:Owner "Veterans Institute, Doorn, The Netherlands" ;
+    cmdi:PublicationDate "2013-03-01" .
+
+cmdi:InterviewMethod cmdi:DataCollectionMethod "recording at interviewees home" ;
+    cmdi:InterviewSort "semi structured" ;
+    cmdi:PreInterviewInformation "introduction letter + telephone call" ;
+    cmdi:RecruitmentMethod "mailing, contact persons, advertisements" .
+
+cmdi:InterviewSummary cmdi:Summary "Op 1 januari 1961 kwam deze avontuurlijk ingestelde man in dienst bij het Korps Mariniers in Doorn. Na 8 maanden opleiding aan de Militaire Kaderschool kreeg hij als onderofficier een tropenkeuring en werd niet lang daarna naar Nieuw Guinea gestuurd. Hij reisde in burgerkleding en ging officieel voor 12 maanden, maar ze kregen er in januari al meteen twee maanden bij, zonder verdere uitleg. In Manokwari verbleef hij met een peloton infanterie op een boot in de baai. Hier was ook de opleiding voor dienstplichtige mariniers die in Nederland hun eerste vier maanden erop hadden zitten. De eerste periode bestond uit oefeningen en patrouilles in het bos, een staaltje van �showing the flag�. De compagnie van deze marinier werd ingezet bij acties in januari 1962 op het eiland Batanta. Hun taak was om infiltranten te onderscheppen en de zaak in de gaten te houden. De sfeer werd gaandeweg grimmiger. Ook raakte deze marinier gewond door een zwaar ongeval aan boord." ;
+    cmdi:TimeInterval "00:00:00-03:00:00" .
+
+cmdi:Interviewee cmdi:BirthPlace "De Steeg (gemeente Rheden)" .
+
+cmdi:Language cmdi:LanguageName "Dutch" .
+
+cmdi:Location cmdi:Address "often stated in the first part of the audio recording" ;
+    cmdi:Region "Unknown" .
+
+cmdi:MimeType cmdi:MimeType "audio/vnd.wave" .
+
+cmdi:Mission cmdi:SpatialCoverage "Nieuw-Guinea" ;
+    cmdi:TimeCoverage "1945-1962" .
+
+cmdi:Modality cmdi:Modality "Spoken" .
+
+cmdi:Multilinguality cmdi:Multilinguality "Monolingual" .
+
+cmdi:OralHistoryInterviewDANS cmdi:ID "IPNV_270" .
+
+cmdi:Resources cmdi:JournalFileProxyList "None" ;
+    cmdi:ResourceRelationList "None" .
+
+cmdi:SpeechTechnicalMetadata cmdi:BitResolution "16" ;
+    cmdi:ByteOrder "little endian" ;
+    cmdi:Compression "none" ;
+    cmdi:NumberOfChannels "1" ;
+    cmdi:SamplingFrequency "16000" .
+
+cmdi:Actor cmdi:Age "32",
+        "65" ;
+    cmdi:Anonymized "true" ;
+    cmdi:BirthYear "1941",
+        "1974" ;
+    cmdi:Education "Unknown",
+        "WO" ;
+    cmdi:FullName "restricted access" ;
+    cmdi:Name "restricted access" ;
+    cmdi:Profession "redacteur",
+        "restricted access" ;
+    cmdi:Role "interviewee",
+        "interviewer" ;
+    cmdi:Sex "Male" ;
+    cmdi:SocialFamilyRole "restricted access" .
+
+cmdi:Contact cmdi:Address "P.O. Box 125, 3940 AC Doorn, The Netherlands",
+        "P.O. Box 93067, 2509 AB Den Haag, The Netherlands" ;
+    cmdi:Email "info@dans.knaw.nl",
+        "ipnv@veteraneninstituut.nl" ;
+    cmdi:Organisation "Data Archiving and Networked Services (DANS)",
+        "Veterans Institute" ;
+    cmdi:Person "Stef Scagliola" ;
+    cmdi:Telephone "+31 343 474150",
+        "+31 70 3446484" ;
+    cmdi:Website "www.dans.knaw.nl",
+        "www.veteraneninstituut.nl" .
+
+cmdi:Country cmdi:Code "NL" .
+
+cmdi:TopicList cmdi:Topic "topic list available through access contact" .
+

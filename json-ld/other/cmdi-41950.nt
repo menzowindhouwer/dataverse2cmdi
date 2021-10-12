@@ -1,0 +1,312 @@
+@prefix #attributes: <https://dataverse.org/schema/cmdi#document/CMD/> .
+@prefix #document: <https://dataverse.org/schema/cmdiFalse/> .
+@prefix access: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/InterviewGeneral/> .
+@prefix actor: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/Interviewee/> .
+@prefix actor1: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/Interviewer/> .
+@prefix actorlanguage: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/Interviewee/Actor/ActorLanguages/> .
+@prefix actorlanguage1: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/Interviewer/Actor/ActorLanguages/> .
+@prefix actorlanguages: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/Interviewee/Actor/> .
+@prefix actorlanguages1: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/Interviewer/Actor/> .
+@prefix birthcountry: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/Interviewee/Actor/> .
+@prefix birthcountry1: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/Interviewer/Actor/> .
+@prefix citation: <https://dataverse.org/schema/citation> .
+@prefix cmd: <https://dataverse.org/schema/cmdi#document/> .
+@prefix cmdi: <https://dataverse.org/schema/cmdi> .
+@prefix cmdidoc: <https://dataverse.org/schema/cmdi/#> .
+@prefix components: <https://dataverse.org/schema/cmdi#document/CMD/> .
+@prefix contact: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/InterviewGeneral/Access/> .
+@prefix contact1: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/InterviewGeneral/Creators/Creator/> .
+@prefix continent: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/InterviewGeneral/Location/> .
+@prefix country: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/InterviewGeneral/Location/> .
+@prefix country1: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/Interviewee/Actor/BirthCountry/> .
+@prefix country2: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/Interviewer/Actor/BirthCountry/> .
+@prefix creator: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/InterviewGeneral/Creators/> .
+@prefix creators: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/InterviewGeneral/> .
+@prefix header: <https://dataverse.org/schema/cmdi#document/CMD/> .
+@prefix interviewaudio: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/> .
+@prefix interviewcontent: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/> .
+@prefix interviewee: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/> .
+@prefix interviewer: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/> .
+@prefix interviewgeneral: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/> .
+@prefix interviewmethod: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/> .
+@prefix interviewsummary: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/InterviewContent/> .
+@prefix iso639: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/Interviewee/Actor/ActorLanguages/ActorLanguage/Language/> .
+@prefix iso6391: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/Interviewer/Actor/ActorLanguages/ActorLanguage/Language/> .
+@prefix keywords: <https://dataverse.org/schema/cmdi/Keyword#> .
+@prefix language: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/Interviewee/Actor/ActorLanguages/ActorLanguage/> .
+@prefix language1: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/Interviewer/Actor/ActorLanguages/ActorLanguage/> .
+@prefix location: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/InterviewGeneral/> .
+@prefix mimetype: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/InterviewAudio/SpeechTechnicalMetadata/> .
+@prefix mission: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/InterviewContent/> .
+@prefix modality: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/InterviewGeneral/> .
+@prefix multilinguality: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/InterviewGeneral/> .
+@prefix ns1: <https://dataverse.org/schema/citation/keyword#> .
+@prefix ns2: <https://dataverse.org/schema/cmdi#> .
+@prefix ns3: <https://dataverse.org/schema/citation/author#> .
+@prefix ns4: <https://dataverse.org/schema/cmdixsi:> .
+@prefix ns5: <http://purl.org/dc/terms/> .
+@prefix ns6: <https://dataverse.org/schema/citation/dsDescription#> .
+@prefix ns7: <https://dataverse.org/schema/cmdixmlns:> .
+@prefix oralhistoryinterviewdans: <https://dataverse.org/schema/cmdi#document/CMD/Components/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix resourceproxylist: <https://dataverse.org/schema/cmdi#document/CMD/Resources/> .
+@prefix resources: <https://dataverse.org/schema/cmdi#document/CMD/> .
+@prefix schema: <https://dataverse.org/schema/> .
+@prefix speechtechnicalmetadata: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/InterviewAudio/> .
+@prefix topiclist: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/InterviewContent/> .
+@prefix topiclist1: <https://dataverse.org/schema/cmdi#document/CMD/Components/OralHistoryInterviewDANS/InterviewMethod/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+schema:cmdi ns2:document schema:cmdiCMD ;
+    cmd:CMD ns2:attributes,
+        schema:cmdiComponents,
+        schema:cmdiHeader,
+        schema:cmdiResources ;
+    #attributes:Components schema:cmdiOralHistoryInterviewDANS ;
+    oralhistoryinterviewdans:OralHistoryInterviewDANS schema:cmdiInterviewAudio,
+        schema:cmdiInterviewContent,
+        schema:cmdiInterviewGeneral,
+        schema:cmdiInterviewMethod,
+        schema:cmdiInterviewee,
+        schema:cmdiInterviewer ;
+    interviewaudio:InterviewAudio schema:cmdiSpeechTechnicalMetadata ;
+    speechtechnicalmetadata:SpeechTechnicalMetadata schema:cmdiMimeType ;
+    interviewaudio:InterviewContent schema:cmdiInterviewSummary,
+        schema:cmdiMission,
+        schema:cmdiTopicList ;
+    interviewaudio:InterviewGeneral schema:cmdiAccess,
+        schema:cmdiCreators,
+        schema:cmdiLocation,
+        schema:cmdiModality,
+        schema:cmdiMultilinguality ;
+    location:Access schema:cmdiContact ;
+    location:Creators schema:cmdiCreator ;
+    creator:Creator schema:cmdiContact ;
+    location:Location schema:cmdiContinent,
+        schema:cmdiCountry ;
+    interviewaudio:InterviewMethod schema:cmdiTopicList ;
+    interviewaudio:Interviewee schema:cmdiActor ;
+    actor:Actor schema:cmdiActorLanguages,
+        schema:cmdiBirthCountry ;
+    actorlanguages:ActorLanguages schema:cmdiActorLanguage ;
+    actorlanguage:ActorLanguage schema:cmdiLanguage ;
+    language:Language schema:cmdiISO639 ;
+    actorlanguages:BirthCountry schema:cmdiCountry ;
+    interviewaudio:Interviewer schema:cmdiActor ;
+    actor1:Actor schema:cmdiActorLanguages,
+        schema:cmdiBirthCountry ;
+    actorlanguages1:ActorLanguages schema:cmdiActorLanguage ;
+    actorlanguage1:ActorLanguage schema:cmdiLanguage ;
+    language1:Language schema:cmdiISO639 ;
+    actorlanguages1:BirthCountry schema:cmdiCountry ;
+    #attributes:Resources schema:cmdiResourceProxyList ;
+    schema:cmdiFalse ns2:document .
+
+<https://dataverse.org/schema/cmdi#document/CMD/#attributes> schema:cmdiCMDVersion "1.1" ;
+    schema:cmdixmlns "http://www.clarin.eu/cmd/" ;
+    ns7:xsi "http://www.w3.org/2001/XMLSchema-instance" ;
+    ns4:schemaLocation "http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1369752611610/xsd" .
+
+oralhistoryinterviewdans:OralHistoryInterviewDANS ns5:title "IPNV_651" .
+
+interviewaudio:InterviewAudio schema:cmdiAudioFileName "IPNV_651.wav" ;
+    schema:cmdiAudioFormat "WAV" ;
+    schema:cmdiMediaType "audio" ;
+    schema:cmdiMicrophoneType "hardware internal" ;
+    schema:cmdiRecordingPlatformHardware "Edirol R-09 24-bit WAV/MP3 Recorder" ;
+    schema:cmdiRecordingPlatformSoftware "hardware internal" .
+
+speechtechnicalmetadata:SpeechTechnicalMetadata schema:cmdiBitResolution "16" ;
+    schema:cmdiByteOrder "little endian" ;
+    schema:cmdiCompression "none" ;
+    schema:cmdiNumberOfChannels "1" ;
+    schema:cmdiSamplingFrequency "16000" .
+
+mimetype:MimeType schema:cmdiMimeType "audio/vnd.wave" .
+
+interviewaudio:InterviewContent schema:cmdiLanguage "Dutch" .
+
+mission:InterviewSummary ns6:Text "De geinterviewde is geboren in1926 in Nederlands-Indie. In 1936 kwam hij in Nederland wonen. Hij vertelt over de druk tijdens de Duitse bezetting. Na een oproep voor de Arbeitseinsatz dook hij onder. Hij en zijn vader waren betrokken bij verzetsactiviteiten. Na de bevrijding melde hij zich als oorlogsvrijwilliger bij de Stoottroepen. In 1945 ging hij op de MS Alcantara naar Indie. Via kamp Chaa kwam hij op Menado, hij herkende zijn moederland. Hierna ging hij naar Bali, waar hij niet bij gevechten betrokken was. De geinterviewde vertelt over de politieke situatie en zijn gevoelens daar bij. Hij vertelt over de bersiap periode na de capitualtie van Japan. Hij betreurt het nog altijd dat het niet gelukt is om de onafhankelijkheid op een geweldloze manier te realiseren. Hij geeft zijn mening over het boek 1000 dagen in indie. Hij vindt dat het veel aspecten niet goed weergeeft. Hij vertelt over commandanten en patrouilles. In 1948 keerde hij terug naar Nederland. Hij moest eerst even aanpassen. Geleidelijk aan vond hij geschikt werk dat hij tot zijn 57e heeft gedaan." ;
+    schema:cmdiTimeInterval "00:00:00-02:20:00" .
+
+mission:Mission schema:cmdiSpatialCoverage "Nederlands-IndiÃ«" ;
+    schema:cmdiTimeCoverage "1945-1950" .
+
+interviewaudio:InterviewGeneral ns5:dateSubmitted "2009-01-28" ;
+    schema:cmdiDuration "02:20:00" ;
+    schema:cmdiGenre "interview" ;
+    schema:cmdiNumberOfSpeakers "2" ;
+    schema:cmdiOwner "Veterans Institute, Doorn, The Netherlands" ;
+    schema:cmdiPublicationDate "2013-03-01" .
+
+location:Access schema:cmdiAvailability "All data including audio is accessible for authorised researchers." ;
+    schema:cmdiCatalogueLink "urn:nbn:nl:ui:13-m2c-op8" ;
+    schema:cmdiDistributionMedium "Distribution medium will be decided in consultation with Access Contact" .
+
+contact:Contact ns3:Affiliation "Data Archiving and Networked Services (DANS)" ;
+    schema:cmdiAddress "P.O. Box 93067, 2509 AB Den Haag, The Netherlands" ;
+    schema:cmdiEmail "info@dans.knaw.nl" ;
+    schema:cmdiTelephone "+31 70 3446484" ;
+    schema:cmdiWebsite "www.dans.knaw.nl" .
+
+creator:Creator schema:cmdiRole "Project Manager" .
+
+contact1:Contact ns3:Affiliation "Veterans Institute" ;
+    ns3:Name "Stef Scagliola" ;
+    schema:cmdiAddress "P.O. Box 125, 3940 AC Doorn, The Netherlands" ;
+    schema:cmdiEmail "ipnv@veteraneninstituut.nl" ;
+    schema:cmdiTelephone "+31 343 474150" ;
+    schema:cmdiWebsite "www.veteraneninstituut.nl" .
+
+location:Location schema:cmdiAddress "often stated in the first part of the audio recording" ;
+    schema:cmdiRegion "Unknown" .
+
+continent:Continent schema:cmdiCode "EU" .
+
+continent:Country schema:cmdiCode "NL" .
+
+location:Modality schema:cmdiModality "Spoken" .
+
+location:Multilinguality schema:cmdiMultilinguality "Monolingual" .
+
+interviewaudio:InterviewMethod schema:cmdiDataCollectionMethod "recording at interviewees home" ;
+    schema:cmdiInterviewSort "semi structured" ;
+    schema:cmdiPreInterviewInformation "introduction letter + telephone call" ;
+    schema:cmdiRecruitmentMethod "mailing, contact persons, advertisements" .
+
+topiclist1:TopicList schema:cmdiTopic "topic list available through access contact" .
+
+interviewaudio:Interviewee schema:cmdiBirthPlace "Soerabaja, Nederlands-Indië" .
+
+actor:Actor schema:cmdiAge "83" ;
+    schema:cmdiAnonymized "true" ;
+    schema:cmdiBirthYear "1926" ;
+    schema:cmdiEducation "Mulo en verschillende deeltijd cursussen" ;
+    schema:cmdiFullName "restricted access" ;
+    schema:cmdiName "restricted access" ;
+    schema:cmdiProfession "restricted access" ;
+    schema:cmdiRole "interviewee" ;
+    schema:cmdiSex "Male" ;
+    schema:cmdiSocialFamilyRole "restricted access" .
+
+language:Language schema:cmdiLanguageName "Dutch" .
+
+iso639:ISO639 schema:cmdiiso-639-3-code "nld" .
+
+country1:Country schema:cmdiCode "NL" .
+
+actor1:Actor schema:cmdiAge "48" ;
+    schema:cmdiAnonymized "true" ;
+    schema:cmdiBirthYear "1960" ;
+    schema:cmdiEducation "HBO" ;
+    schema:cmdiProfession "onderzoeker" ;
+    schema:cmdiRole "interviewer" ;
+    schema:cmdiSex "Male" .
+
+language1:Language schema:cmdiLanguageName "Dutch" .
+
+iso6391:ISO639 schema:cmdiiso-639-3-code "nld" .
+
+country2:Country schema:cmdiCode "NL" .
+
+#attributes:Header schema:cmdiMdSelfLink "None" .
+
+#attributes:Resources schema:cmdiJournalFileProxyList "None" ;
+    schema:cmdiResourceRelationList "None" .
+
+<https://dataverse.org/schema/cmdi/InterviewKeyWords> ns1:Term [ ns1:Term [ ns1:Term "Oorlogsvrijwilligers" ],
+                [ ns1:Term "KNIL" ],
+                [ ns1:Term "Eerste indrukken" ],
+                [ ns1:Term "Tegenwerking Engelsen IndiÃ«" ],
+                [ ns1:Term "Boot naar IndiÃ«" ],
+                [ ns1:Term "Reis naar inzetgebied" ],
+                [ ns1:Term "Talenkennis" ] ;
+            schema:cmdiTimeInterval "00:30:00-00:40:00" ],
+        [ ns1:Term [ ns1:Term "Verhaal niet kwijt kunnen" ],
+                [ ns1:Term "ReÃ¼nies" ],
+                [ ns1:Term "Veteranenactiviteiten" ] ;
+            schema:cmdiTimeInterval "01:50:00-02:00:00" ],
+        [ ns1:Term [ ns1:Term "Saamhorigheidsgevoel" ],
+                [ ns1:Term "Kameraadschap" ],
+                [ ns1:Term "Veteranenstatus" ],
+                [ ns1:Term "Rangen en standen" ],
+                [ ns1:Term "Ruilhandel" ],
+                [ ns1:Term "Herhalingsoefeningen" ],
+                [ ns1:Term "Manschappen vs kader" ],
+                [ ns1:Term "Eten en drinken" ] ;
+            schema:cmdiTimeInterval "02:00:00-02:10:00" ],
+        [ ns1:Term [ ns1:Term "Order is order" ],
+                [ ns1:Term "Manschappen vs kader" ],
+                [ ns1:Term "Rangen en standen" ],
+                [ ns1:Term "ReÃ¼nies" ],
+                [ ns1:Term "Informatievoorziening" ],
+                [ ns1:Term "Eigen waarneming vs officiÃ«le rapportage" ],
+                [ ns1:Term "Administratie" ] ;
+            schema:cmdiTimeInterval "01:00:00-01:10:00" ],
+        [ ns1:Term [ ns1:Term "Terug in gezinsleven" ],
+                [ ns1:Term "Demobilisatie na IndiÃ«" ],
+                [ ns1:Term "Thuiskomen" ],
+                [ ns1:Term "Aanpassingsproblemen" ],
+                [ ns1:Term "Werk vinden na terugkeer" ],
+                [ ns1:Term "Jaren vijftig" ],
+                [ ns1:Term "Publieke opinie" ] ;
+            schema:cmdiTimeInterval "01:40:00-01:50:00" ],
+        [ ns1:Term [ ns1:Term "Collegiale conflicten" ],
+                [ ns1:Term "Rangen en standen" ],
+                [ ns1:Term "Functie en taak" ],
+                [ ns1:Term "Manschappen vs kader" ] ;
+            schema:cmdiTimeInterval "01:10:00-01:20:00" ],
+        [ ns1:Term [ ns1:Term "Herdenkingen" ],
+                [ ns1:Term "Landelijke veteranendag" ],
+                [ ns1:Term "Veteraneninstituut" ],
+                [ ns1:Term "Impact op persoonlijke ontwikkeling" ] ;
+            schema:cmdiTimeInterval "02:10:00-02:20:00" ],
+        [ ns1:Term [ ns1:Term "Krijgsgevangenen" ],
+                [ ns1:Term "Contact met lokale bevolking" ],
+                [ ns1:Term "Afscheid missiegebied" ],
+                [ ns1:Term "Voldoening" ],
+                [ ns1:Term "Eerste politionele actie" ],
+                [ ns1:Term "Zin van uitzending" ] ;
+            schema:cmdiTimeInterval "01:30:00-01:40:00" ],
+        [ ns1:Term [ ns1:Term "Zwaargewonde collega#39" ],
+                [ ns1:Term "Patrouilles" ],
+                [ ns1:Term "Gebrekkige communicatie" ],
+                [ ns1:Term "In vijandig gebied" ],
+                [ ns1:Term "Onderhandelen met lokale autoriteiten" ],
+                [ ns1:Term "s" ],
+                [ ns1:Term "Lokale militairen" ],
+                [ ns1:Term "TNI" ] ;
+            schema:cmdiTimeInterval "01:20:00-01:30:00" ],
+        [ ns1:Term [ ns1:Term "Zin van uitzending" ],
+                [ ns1:Term "Soekarno" ],
+                [ ns1:Term "Onafhankelijkheid IndonesiÃ«" ],
+                [ ns1:Term "Politiek" ],
+                [ ns1:Term "Pelopors" ] ;
+            schema:cmdiTimeInterval "00:50:00-01:00:00" ],
+        [ ns1:Term [ ns1:Term "NSB" ],
+                [ ns1:Term "Bezettingstijd" ],
+                [ ns1:Term "Nasleep WOII" ],
+                [ ns1:Term "Koloniale samenleving" ],
+                [ ns1:Term "Vrijwillige aanmelding" ],
+                [ ns1:Term "Motivatie" ],
+                [ ns1:Term "Oorlogsvrijwilligers" ],
+                [ ns1:Term "Strijd tegen Japan" ] ;
+            schema:cmdiTimeInterval "00:20:00-00:30:00" ],
+        [ ns1:Term [ ns1:Term "Onderduiken" ],
+                [ ns1:Term "Bezettingstijd" ],
+                [ ns1:Term "Verzet" ] ;
+            schema:cmdiTimeInterval "00:10:00-00:20:00" ],
+        [ ns1:Term [ ns1:Term "Anekdotes" ],
+                [ ns1:Term "Dumpen materieel" ],
+                [ ns1:Term "Patrouilles" ],
+                [ ns1:Term "Geweldsinstructies" ],
+                [ ns1:Term "Ziek tijdens uitzending" ],
+                [ ns1:Term "Verkeersongevallen" ] ;
+            schema:cmdiTimeInterval "00:40:00-00:50:00" ],
+        [ ns1:Term [ ns1:Term "Cultuurverschillen" ],
+                [ ns1:Term "Jaren dertig" ],
+                [ ns1:Term "Koloniale samenleving" ] ;
+            schema:cmdiTimeInterval "00:00:00-00:10:00" ] .
+

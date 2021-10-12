@@ -1,0 +1,2067 @@
+[
+  {
+    "@id": "https://dataverse.org/schema/cmdi/InterviewKeyWords",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@id": "_:Nbf57f0c5983e4f3db691522b8269f3c8"
+      },
+      {
+        "@id": "_:N293224ceb91d484c81ea34c82fa84ce6"
+      },
+      {
+        "@id": "_:N26925991d05245a5a6662180d868aee1"
+      },
+      {
+        "@id": "_:Nad7da5e65cd04b05b90dd47657859963"
+      },
+      {
+        "@id": "_:Naf6d1b53cf23462c9b9cfdd1fd1b6dbd"
+      },
+      {
+        "@id": "_:N4c69c59198594780a00605f8e222632c"
+      },
+      {
+        "@id": "_:N694060eeb3664ebf89de0d1078c4b744"
+      },
+      {
+        "@id": "_:N14277f4b6e104fad8c0cfb02de17e41f"
+      },
+      {
+        "@id": "_:Nb2e8c0a10455404b8392602e4d85bf68"
+      },
+      {
+        "@id": "_:N8c82adfc6fad4c2293b1f227970bdd28"
+      },
+      {
+        "@id": "_:Ndc0da02554da465cb68525c57efd7d83"
+      },
+      {
+        "@id": "_:Nf90d6e7384e84269871929c004073e28"
+      },
+      {
+        "@id": "_:Nfd1d22c5097444a69f8ee2bea3ed17be"
+      },
+      {
+        "@id": "_:Nfb773a4d62c149fdbd748c2295f5163d"
+      },
+      {
+        "@id": "_:N1ce2db1f3bf64d3a816a1be0387b6129"
+      },
+      {
+        "@id": "_:Ne21b7058e4884790b881c5e01302be62"
+      },
+      {
+        "@id": "_:N945a42905139488c9fdce0240f9018d5"
+      },
+      {
+        "@id": "_:Ne47066758d9e4aca9e2baebf910b83a5"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nbf57f0c5983e4f3db691522b8269f3c8",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@id": "_:Nada5a941f53c47aaba40baf1a4b78899"
+      },
+      {
+        "@id": "_:N54c78d28930b4425b8b490957b501492"
+      },
+      {
+        "@id": "_:N14b205a5187644b994de271986aaaae4"
+      },
+      {
+        "@id": "_:N4ea20fc8d07444adb808acba4e4cac7e"
+      },
+      {
+        "@id": "_:N43b99302fb8745f0b19de9f93b2e5fb1"
+      },
+      {
+        "@id": "_:N4ef9494265054d25bd322ebb25698f86"
+      },
+      {
+        "@id": "_:N8e0e94fe5b094b51a313d9f54bc6d67a"
+      },
+      {
+        "@id": "_:N3a60e241a6064fd982f65978e8bcf9c3"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/TimeInterval": [
+      {
+        "@value": "02:20:00-02:30:00"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nada5a941f53c47aaba40baf1a4b78899",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Aansprakelijkheid"
+      }
+    ]
+  },
+  {
+    "@id": "_:N54c78d28930b4425b8b490957b501492",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Miskenning"
+      }
+    ]
+  },
+  {
+    "@id": "_:N14b205a5187644b994de271986aaaae4",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Thuiskomen"
+      }
+    ]
+  },
+  {
+    "@id": "_:N4ea20fc8d07444adb808acba4e4cac7e",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Gebrek aan nazorg"
+      }
+    ]
+  },
+  {
+    "@id": "_:N43b99302fb8745f0b19de9f93b2e5fb1",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Nazorg Defensie"
+      }
+    ]
+  },
+  {
+    "@id": "_:N4ef9494265054d25bd322ebb25698f86",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Uitkering"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8e0e94fe5b094b51a313d9f54bc6d67a",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Invaliditeit"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3a60e241a6064fd982f65978e8bcf9c3",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Aankomst in Nederland"
+      }
+    ]
+  },
+  {
+    "@id": "_:N293224ceb91d484c81ea34c82fa84ce6",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@id": "_:Ncd8ed4c7656a49ba92f780c3121ef598"
+      },
+      {
+        "@id": "_:Neeb64bbf048140e99923f33d3a0ea17d"
+      },
+      {
+        "@id": "_:N6faaebb231c54629a62da4ec4d250271"
+      },
+      {
+        "@id": "_:Nf059ccb127694fd5a443e79de9e1b52c"
+      },
+      {
+        "@id": "_:N2a13d1cf0a0645eb9241d4da99d55e84"
+      },
+      {
+        "@id": "_:N1f1889a4816541b28dff545e24857429"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/TimeInterval": [
+      {
+        "@value": "02:00:00-02:10:00"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ncd8ed4c7656a49ba92f780c3121ef598",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Ongelukken"
+      }
+    ]
+  },
+  {
+    "@id": "_:Neeb64bbf048140e99923f33d3a0ea17d",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Terugreis"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6faaebb231c54629a62da4ec4d250271",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Gewonden"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf059ccb127694fd5a443e79de9e1b52c",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Overdracht"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2a13d1cf0a0645eb9241d4da99d55e84",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Impact op persoonlijke ontwikkeling"
+      }
+    ]
+  },
+  {
+    "@id": "_:N1f1889a4816541b28dff545e24857429",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Ziek tijdens uitzending"
+      }
+    ]
+  },
+  {
+    "@id": "_:N26925991d05245a5a6662180d868aee1",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@id": "_:Nb6db6d97e90a44b3abe01381d9315088"
+      },
+      {
+        "@id": "_:N64f274a0ce9f4f4f90449fe23513c140"
+      },
+      {
+        "@id": "_:N8bff6a3a08b348ae9ee66956a96bf680"
+      },
+      {
+        "@id": "_:N00de5a3167cb4e539237f7c3eeb78a53"
+      },
+      {
+        "@id": "_:Nf1d199ff1031470299d0fd8bfe5d2e59"
+      },
+      {
+        "@id": "_:Nd4efa05e36b1494aa0c23294619e143c"
+      },
+      {
+        "@id": "_:N0bc3bad874aa47eeb3250dabbaf643e6"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/TimeInterval": [
+      {
+        "@value": "01:20:00-01:30:00"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb6db6d97e90a44b3abe01381d9315088",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Moreel"
+      }
+    ]
+  },
+  {
+    "@id": "_:N64f274a0ce9f4f4f90449fe23513c140",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Over de schreef"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8bff6a3a08b348ae9ee66956a96bf680",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Indonesische infiltraties"
+      }
+    ]
+  },
+  {
+    "@id": "_:N00de5a3167cb4e539237f7c3eeb78a53",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Afzien"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf1d199ff1031470299d0fd8bfe5d2e59",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Krijgsgevangenen"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd4efa05e36b1494aa0c23294619e143c",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Impact op persoonlijke ontwikkeling"
+      }
+    ]
+  },
+  {
+    "@id": "_:N0bc3bad874aa47eeb3250dabbaf643e6",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Bangmakerij"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nad7da5e65cd04b05b90dd47657859963",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@id": "_:N8c07daa781844ca28b2c13057e6bd617"
+      },
+      {
+        "@id": "_:Neae20ed2bf7b496b84e813ae287f49b3"
+      },
+      {
+        "@id": "_:Nbdf110fa00094605b7a92e1e83d892a0"
+      },
+      {
+        "@id": "_:N5b7f9177bf794d87812e537d1f9ea074"
+      },
+      {
+        "@id": "_:N8098cbeb25e54648b38f445088e5be2c"
+      },
+      {
+        "@id": "_:N726ecf541c6f4232aa6a69c06d43b510"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/TimeInterval": [
+      {
+        "@value": "02:40:00-02:50:00"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8c07daa781844ca28b2c13057e6bd617",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Gebrek aan nazorg"
+      }
+    ]
+  },
+  {
+    "@id": "_:Neae20ed2bf7b496b84e813ae287f49b3",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Belastende herinneringen"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nbdf110fa00094605b7a92e1e83d892a0",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Onderscheidingen"
+      }
+    ]
+  },
+  {
+    "@id": "_:N5b7f9177bf794d87812e537d1f9ea074",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Frustratie"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8098cbeb25e54648b38f445088e5be2c",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Miskenning"
+      }
+    ]
+  },
+  {
+    "@id": "_:N726ecf541c6f4232aa6a69c06d43b510",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Invaliditeit"
+      }
+    ]
+  },
+  {
+    "@id": "_:Naf6d1b53cf23462c9b9cfdd1fd1b6dbd",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@id": "_:Nb101464b43624633876fe0383fb28146"
+      },
+      {
+        "@id": "_:N74c98d3d51ac4e2b8bfd0d42854d2b57"
+      },
+      {
+        "@id": "_:N181137f680e448208a03833b7156bf04"
+      },
+      {
+        "@id": "_:N408142bf3423482e913cf39d6c496c89"
+      },
+      {
+        "@id": "_:N4126a533c3fe46a497eb84523cc84276"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/TimeInterval": [
+      {
+        "@value": "02:10:00-02:20:00"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb101464b43624633876fe0383fb28146",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Ziek tijdens uitzending"
+      }
+    ]
+  },
+  {
+    "@id": "_:N74c98d3d51ac4e2b8bfd0d42854d2b57",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Invaliditeit"
+      }
+    ]
+  },
+  {
+    "@id": "_:N181137f680e448208a03833b7156bf04",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Impact op persoonlijke ontwikkeling"
+      }
+    ]
+  },
+  {
+    "@id": "_:N408142bf3423482e913cf39d6c496c89",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Gewonden"
+      }
+    ]
+  },
+  {
+    "@id": "_:N4126a533c3fe46a497eb84523cc84276",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Gezondheidsklachten na terugkeer"
+      }
+    ]
+  },
+  {
+    "@id": "_:N4c69c59198594780a00605f8e222632c",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Impact op persoonlijke ontwikkeling"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/TimeInterval": [
+      {
+        "@value": "02:50:00-03:00:00"
+      }
+    ]
+  },
+  {
+    "@id": "_:N694060eeb3664ebf89de0d1078c4b744",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@id": "_:Nefd67089bd494a339c7a1b8be01433c6"
+      },
+      {
+        "@id": "_:Ndee2ad1e2f924461bcc372be984d052a"
+      },
+      {
+        "@id": "_:Na715c0b78f034ba0acca95e5893f3bec"
+      },
+      {
+        "@id": "_:N6717aa2519bf407b9bd1b98e097439cd"
+      },
+      {
+        "@id": "_:Nae21d46a34dc40298da9aca080320331"
+      },
+      {
+        "@id": "_:Nf9555c1337b04680afb05e9b3c6f5922"
+      },
+      {
+        "@id": "_:N89682da3423c44c48fc8e912f75c621d"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/TimeInterval": [
+      {
+        "@value": "00:30:00-00:40:00"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nefd67089bd494a339c7a1b8be01433c6",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Slechte voorbereiding"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ndee2ad1e2f924461bcc372be984d052a",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Functie en taak"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na715c0b78f034ba0acca95e5893f3bec",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Papoea#39"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6717aa2519bf407b9bd1b98e097439cd",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Aankomst missiegebied"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nae21d46a34dc40298da9aca080320331",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Beschrijving legering"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf9555c1337b04680afb05e9b3c6f5922",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Eerste indrukken"
+      }
+    ]
+  },
+  {
+    "@id": "_:N89682da3423c44c48fc8e912f75c621d",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "s"
+      }
+    ]
+  },
+  {
+    "@id": "_:N14277f4b6e104fad8c0cfb02de17e41f",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@id": "_:Na1db4ca131754248984910aff8ffb34a"
+      },
+      {
+        "@id": "_:N84dafacb9f4441f9ac143eea63a63bcc"
+      },
+      {
+        "@id": "_:N65989417333b418dbdb8bfed081336b8"
+      },
+      {
+        "@id": "_:N309ae2eefee943ac9d7beda5ad1ba4c1"
+      },
+      {
+        "@id": "_:Naea57e038fe64c74b0f865a246c0dcdc"
+      },
+      {
+        "@id": "_:Na2b6ba25f3ee46ddabc411d8df3573e4"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/TimeInterval": [
+      {
+        "@value": "01:30:00-01:40:00"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na1db4ca131754248984910aff8ffb34a",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Inspraak"
+      }
+    ]
+  },
+  {
+    "@id": "_:N84dafacb9f4441f9ac143eea63a63bcc",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Indonesische infiltraties"
+      }
+    ]
+  },
+  {
+    "@id": "_:N65989417333b418dbdb8bfed081336b8",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Angst"
+      }
+    ]
+  },
+  {
+    "@id": "_:N309ae2eefee943ac9d7beda5ad1ba4c1",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "HiÃ«rarchie"
+      }
+    ]
+  },
+  {
+    "@id": "_:Naea57e038fe64c74b0f865a246c0dcdc",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Bedreigende situaties"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na2b6ba25f3ee46ddabc411d8df3573e4",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Onderofficieren"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb2e8c0a10455404b8392602e4d85bf68",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@id": "_:N318e522407894ef69cc06db9b87c0e76"
+      },
+      {
+        "@id": "_:N62e12e972ab6422b95fcdd020a70a82e"
+      },
+      {
+        "@id": "_:N41f7612900094c81a36cf6f384d39e0a"
+      },
+      {
+        "@id": "_:Nadb6ebd69d5643f28346b6e7989403b8"
+      },
+      {
+        "@id": "_:N3c6d61668bcf45fba0145bada47b195f"
+      },
+      {
+        "@id": "_:N219ddc273f794b26aeeff80ad4a203e3"
+      },
+      {
+        "@id": "_:N12ff7bce0a4840719032fc190ebf39e2"
+      },
+      {
+        "@id": "_:Nd9bff3db4ffd4cfca9962d82369c4b3a"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/TimeInterval": [
+      {
+        "@value": "02:30:00-02:40:00"
+      }
+    ]
+  },
+  {
+    "@id": "_:N318e522407894ef69cc06db9b87c0e76",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Impact op persoonlijke ontwikkeling"
+      }
+    ]
+  },
+  {
+    "@id": "_:N62e12e972ab6422b95fcdd020a70a82e",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "ReÃ¼nies"
+      }
+    ]
+  },
+  {
+    "@id": "_:N41f7612900094c81a36cf6f384d39e0a",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Teleurgesteld in defensie"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nadb6ebd69d5643f28346b6e7989403b8",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Miskenning"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3c6d61668bcf45fba0145bada47b195f",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Onderscheidingen"
+      }
+    ]
+  },
+  {
+    "@id": "_:N219ddc273f794b26aeeff80ad4a203e3",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Verwerking"
+      }
+    ]
+  },
+  {
+    "@id": "_:N12ff7bce0a4840719032fc190ebf39e2",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Invaliditeit"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd9bff3db4ffd4cfca9962d82369c4b3a",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Doofpot"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8c82adfc6fad4c2293b1f227970bdd28",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@id": "_:Nf8877877818746b78e9fb9bf723a85e7"
+      },
+      {
+        "@id": "_:N3ea1eba26d1d4f8cb940992d0dc5e00e"
+      },
+      {
+        "@id": "_:N2cde9079ac314c7292d42b811f35da04"
+      },
+      {
+        "@id": "_:N175b04e3fbb24344b5dfff683ebaf824"
+      },
+      {
+        "@id": "_:N3c4ed3c713354b2f89953284f0f2693f"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/TimeInterval": [
+      {
+        "@value": "00:20:00-00:30:00"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf8877877818746b78e9fb9bf723a85e7",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Informatievoorziening"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3ea1eba26d1d4f8cb940992d0dc5e00e",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Wijde wereld"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2cde9079ac314c7292d42b811f35da04",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Eerste indrukken"
+      }
+    ]
+  },
+  {
+    "@id": "_:N175b04e3fbb24344b5dfff683ebaf824",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Duur uitzending"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3c4ed3c713354b2f89953284f0f2693f",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Afscheid thuisfront"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ndc0da02554da465cb68525c57efd7d83",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@id": "_:N2eb91b3a88c34ff193a0cb3d3ced3191"
+      },
+      {
+        "@id": "_:Ncc22642a5b0f4f79b2b4aeed6370099d"
+      },
+      {
+        "@id": "_:Nf58363e15d6c46a5baa251c554e16b5b"
+      },
+      {
+        "@id": "_:N63930ea0bce64cc9a0a4f85d10bec555"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/TimeInterval": [
+      {
+        "@value": "00:10:00-00:20:00"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2eb91b3a88c34ff193a0cb3d3ced3191",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Militaire dienstplicht"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ncc22642a5b0f4f79b2b4aeed6370099d",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Functie en taak"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf58363e15d6c46a5baa251c554e16b5b",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Kennisgeving uitzending"
+      }
+    ]
+  },
+  {
+    "@id": "_:N63930ea0bce64cc9a0a4f85d10bec555",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Beroepskader"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf90d6e7384e84269871929c004073e28",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@id": "_:N90ede28614dd493bb815ae2a61d527b4"
+      },
+      {
+        "@id": "_:N7af3ae2d315f46b1b6317a45afea7d8b"
+      },
+      {
+        "@id": "_:Nddab4bbca26f4c1d8391941eeadbfffe"
+      },
+      {
+        "@id": "_:N9fbf9c05b79a44db8381c561785135c8"
+      },
+      {
+        "@id": "_:Na7f82130a1024997b7184b662c1ef9b7"
+      },
+      {
+        "@id": "_:N6bb933473f704bc5b95430c4e9b3d2e8"
+      },
+      {
+        "@id": "_:Nea647314a28d4d9d9455a6c937823d7c"
+      },
+      {
+        "@id": "_:Nc407b5ba14c84b54b2fefbf4d272017a"
+      },
+      {
+        "@id": "_:Nc83fee7254b14bcc8d02490433dcfd13"
+      },
+      {
+        "@id": "_:N10dd8bb43f51498a865520985c879930"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/TimeInterval": [
+      {
+        "@value": "01:50:00-02:00:00"
+      }
+    ]
+  },
+  {
+    "@id": "_:N90ede28614dd493bb815ae2a61d527b4",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Sancties"
+      }
+    ]
+  },
+  {
+    "@id": "_:N7af3ae2d315f46b1b6317a45afea7d8b",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Legerarts"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nddab4bbca26f4c1d8391941eeadbfffe",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Indonesische infiltraties"
+      }
+    ]
+  },
+  {
+    "@id": "_:N9fbf9c05b79a44db8381c561785135c8",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "s"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na7f82130a1024997b7184b662c1ef9b7",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Militaire discipline"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6bb933473f704bc5b95430c4e9b3d2e8",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Geestelijke verzorging"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nea647314a28d4d9d9455a6c937823d7c",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Roofbouw plegen gezondheid"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc407b5ba14c84b54b2fefbf4d272017a",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Overspannen collega#39"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc83fee7254b14bcc8d02490433dcfd13",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Patrouilles"
+      }
+    ]
+  },
+  {
+    "@id": "_:N10dd8bb43f51498a865520985c879930",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Angst"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nfd1d22c5097444a69f8ee2bea3ed17be",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@id": "_:N38a87f256b574475aeb2575b0cd35c2c"
+      },
+      {
+        "@id": "_:N6ee5fc8c33cf463cbd83b813e1781f7f"
+      },
+      {
+        "@id": "_:Na06bcdeaee074a5db9b661c9ecf1b92a"
+      },
+      {
+        "@id": "_:N5b4ced52eed24f8bb66b4051840c87bc"
+      },
+      {
+        "@id": "_:Nd05431e283b341ef8c0c656b2f7eb740"
+      },
+      {
+        "@id": "_:N02e695e5b0bf496a8348dcc49b46dfa7"
+      },
+      {
+        "@id": "_:Nb5be2ebd5ac44b5e8e5a4470d7445794"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/TimeInterval": [
+      {
+        "@value": "01:00:00-01:10:00"
+      }
+    ]
+  },
+  {
+    "@id": "_:N38a87f256b574475aeb2575b0cd35c2c",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Emotionele verharding"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6ee5fc8c33cf463cbd83b813e1781f7f",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Afzien"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na06bcdeaee074a5db9b661c9ecf1b92a",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Verwerking"
+      }
+    ]
+  },
+  {
+    "@id": "_:N5b4ced52eed24f8bb66b4051840c87bc",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Korps Mariniers"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd05431e283b341ef8c0c656b2f7eb740",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Indonesische infiltraties"
+      }
+    ]
+  },
+  {
+    "@id": "_:N02e695e5b0bf496a8348dcc49b46dfa7",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Patrouilles"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb5be2ebd5ac44b5e8e5a4470d7445794",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Terugkeerreis"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nfb773a4d62c149fdbd748c2295f5163d",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@id": "_:N55ef483c52a94d669a78fde4f4a22726"
+      },
+      {
+        "@id": "_:N3a6a53065b1048c49fa06af100234c1a"
+      },
+      {
+        "@id": "_:Nb9c72eec9d0d499a8c60811a4ca7e010"
+      },
+      {
+        "@id": "_:N5926b5083042424b91e0b51e02c5b405"
+      },
+      {
+        "@id": "_:N04b488b5c005401c9776f264931c250b"
+      },
+      {
+        "@id": "_:N5136d6b74da842458518bb6185be8586"
+      },
+      {
+        "@id": "_:Ndf621ef703964aaf99023084562f289f"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/TimeInterval": [
+      {
+        "@value": "01:10:00-01:20:00"
+      }
+    ]
+  },
+  {
+    "@id": "_:N55ef483c52a94d669a78fde4f4a22726",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "s"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3a6a53065b1048c49fa06af100234c1a",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Inlichtingen"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb9c72eec9d0d499a8c60811a4ca7e010",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Gesneuvelden"
+      }
+    ]
+  },
+  {
+    "@id": "_:N5926b5083042424b91e0b51e02c5b405",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Indonesische infiltraties"
+      }
+    ]
+  },
+  {
+    "@id": "_:N04b488b5c005401c9776f264931c250b",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Lokale bevolking"
+      }
+    ]
+  },
+  {
+    "@id": "_:N5136d6b74da842458518bb6185be8586",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Papoea#39"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ndf621ef703964aaf99023084562f289f",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Beschrijving legering"
+      }
+    ]
+  },
+  {
+    "@id": "_:N1ce2db1f3bf64d3a816a1be0387b6129",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@id": "_:Nb87df74ed3104c8cb76a2ad0be925c66"
+      },
+      {
+        "@id": "_:N83487055cfed4054bc9ca8cfe6870741"
+      },
+      {
+        "@id": "_:N0feb0a9c9acd4a11a0fc6b61af597793"
+      },
+      {
+        "@id": "_:N3cbf1918f8054ce4b3c4079597dcd363"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/TimeInterval": [
+      {
+        "@value": "00:00:00-00:10:00"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb87df74ed3104c8cb76a2ad0be925c66",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Militaire opleiding"
+      }
+    ]
+  },
+  {
+    "@id": "_:N83487055cfed4054bc9ca8cfe6870741",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Onderofficiersopleiding"
+      }
+    ]
+  },
+  {
+    "@id": "_:N0feb0a9c9acd4a11a0fc6b61af597793",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Korps Mariniers"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3cbf1918f8054ce4b3c4079597dcd363",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Militaire dienstplicht"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne21b7058e4884790b881c5e01302be62",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@id": "_:N9b47344fb79840edad7a7894009e6280"
+      },
+      {
+        "@id": "_:N794cd0d9ff3c490ba2c5d6cd16f0eb65"
+      },
+      {
+        "@id": "_:N1411fcbc6b4d467ca5e4389fb4b51c05"
+      },
+      {
+        "@id": "_:Na5abe13d09e048a7b61bcd24cec69533"
+      },
+      {
+        "@id": "_:N6281041338e74277b7b2ebb9889f1d2f"
+      },
+      {
+        "@id": "_:Nd5f7adf1dcb04b6c93105754e79c9bd6"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/TimeInterval": [
+      {
+        "@value": "00:50:00-01:00:00"
+      }
+    ]
+  },
+  {
+    "@id": "_:N9b47344fb79840edad7a7894009e6280",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Patrouilles"
+      }
+    ]
+  },
+  {
+    "@id": "_:N794cd0d9ff3c490ba2c5d6cd16f0eb65",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Dood kameraad"
+      }
+    ]
+  },
+  {
+    "@id": "_:N1411fcbc6b4d467ca5e4389fb4b51c05",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Afzien"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na5abe13d09e048a7b61bcd24cec69533",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Begrafenis militair"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6281041338e74277b7b2ebb9889f1d2f",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Oefening in het veld"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd5f7adf1dcb04b6c93105754e79c9bd6",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Klimatologische omstandigheden"
+      }
+    ]
+  },
+  {
+    "@id": "_:N945a42905139488c9fdce0240f9018d5",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@id": "_:N2c4998b42648474f909c09168aca0e51"
+      },
+      {
+        "@id": "_:N20776c66fe0c443887bfbf765acdb973"
+      },
+      {
+        "@id": "_:Nf085f1325caf41a491a948cdf6c94d9a"
+      },
+      {
+        "@id": "_:N0e2c8c84130c4a42ad448431265063fd"
+      },
+      {
+        "@id": "_:N2a892ab3f5e24e20b2db714f20836e02"
+      },
+      {
+        "@id": "_:N616d32ecd0b8458b91d67416eb70dde6"
+      },
+      {
+        "@id": "_:N63bb7e7c46a64d05b536a3deb1304b4e"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/TimeInterval": [
+      {
+        "@value": "00:40:00-00:50:00"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2c4998b42648474f909c09168aca0e51",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Korps Mariniers"
+      }
+    ]
+  },
+  {
+    "@id": "_:N20776c66fe0c443887bfbf765acdb973",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Medische zorg"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf085f1325caf41a491a948cdf6c94d9a",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Hospik"
+      }
+    ]
+  },
+  {
+    "@id": "_:N0e2c8c84130c4a42ad448431265063fd",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Contact met lokale bevolking"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2a892ab3f5e24e20b2db714f20836e02",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Papoea#39"
+      }
+    ]
+  },
+  {
+    "@id": "_:N616d32ecd0b8458b91d67416eb70dde6",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Patrouilles"
+      }
+    ]
+  },
+  {
+    "@id": "_:N63bb7e7c46a64d05b536a3deb1304b4e",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "s"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne47066758d9e4aca9e2baebf910b83a5",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@id": "_:N28906f93653a431ba07e5b6dc1290f57"
+      },
+      {
+        "@id": "_:N5cc065aea5d7426fb5a4f8fe595d8352"
+      },
+      {
+        "@id": "_:N7e86b8785dad4a03be3958f469fda66d"
+      },
+      {
+        "@id": "_:N3779bd3ea1da482e9acd856f4279e5eb"
+      },
+      {
+        "@id": "_:N9890c8a712a9451b856a597dce8cc3af"
+      },
+      {
+        "@id": "_:Ncc8b11b0dbad4955b51f0a2772900df0"
+      },
+      {
+        "@id": "_:Nabcf213070b342ac90d1d907969ba630"
+      },
+      {
+        "@id": "_:Nf97330d8b57442b7bed2419a2832f0eb"
+      },
+      {
+        "@id": "_:Na2db5fbe746044e9b955f9817dff2d31"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/TimeInterval": [
+      {
+        "@value": "01:40:00-01:50:00"
+      }
+    ]
+  },
+  {
+    "@id": "_:N28906f93653a431ba07e5b6dc1290f57",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Legerarts"
+      }
+    ]
+  },
+  {
+    "@id": "_:N5cc065aea5d7426fb5a4f8fe595d8352",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Werkdruk"
+      }
+    ]
+  },
+  {
+    "@id": "_:N7e86b8785dad4a03be3958f469fda66d",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Kameraadschap"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3779bd3ea1da482e9acd856f4279e5eb",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Afzien"
+      }
+    ]
+  },
+  {
+    "@id": "_:N9890c8a712a9451b856a597dce8cc3af",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Elkaar erdoorheen slepen"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ncc8b11b0dbad4955b51f0a2772900df0",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Korps Mariniers"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nabcf213070b342ac90d1d907969ba630",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Gevoel van veiligheid"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf97330d8b57442b7bed2419a2832f0eb",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Roofbouw plegen gezondheid"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na2db5fbe746044e9b955f9817dff2d31",
+    "https://dataverse.org/schema/cmdi/Keyword": [
+      {
+        "@value": "Anekdotes"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi/Language",
+    "https://dataverse.org/schema/cmdi/LanguageName": [
+      {
+        "@value": "Dutch"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi/MimeType",
+    "https://dataverse.org/schema/cmdi/MimeType": [
+      {
+        "@value": "audio/vnd.wave"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi/Continent",
+    "https://dataverse.org/schema/cmdi/Code": [
+      {
+        "@value": "EU"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi/Country",
+    "https://dataverse.org/schema/cmdi/Code": [
+      {
+        "@value": "NL"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi/Modality",
+    "https://dataverse.org/schema/cmdi/Modality": [
+      {
+        "@value": "Spoken"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi/OralHistoryInterviewDANS",
+    "https://dataverse.org/schema/cmdi/ID": [
+      {
+        "@value": "IPNV_270"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi/InterviewMethod",
+    "https://dataverse.org/schema/cmdi/DataCollectionMethod": [
+      {
+        "@value": "recording at interviewees home"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/InterviewSort": [
+      {
+        "@value": "semi structured"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/PreInterviewInformation": [
+      {
+        "@value": "introduction letter + telephone call"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/RecruitmentMethod": [
+      {
+        "@value": "mailing, contact persons, advertisements"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi/#attributes",
+    "https://dataverse.org/schema/cmdi/CMDVersion": [
+      {
+        "@value": "1.1"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/xmlns": [
+      {
+        "@value": "http://www.clarin.eu/cmd/"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/xmlns:xsi": [
+      {
+        "@value": "http://www.w3.org/2001/XMLSchema-instance"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/xsi:schemaLocation": [
+      {
+        "@value": "http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1369752611610/xsd"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi/Multilinguality",
+    "https://dataverse.org/schema/cmdi/Multilinguality": [
+      {
+        "@value": "Monolingual"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi/InterviewSummary",
+    "https://dataverse.org/schema/cmdi/Summary": [
+      {
+        "@value": "Op 1 januari 1961 kwam deze avontuurlijk ingestelde man in dienst bij het Korps Mariniers in Doorn. Na 8 maanden opleiding aan de Militaire Kaderschool kreeg hij als onderofficier een tropenkeuring en werd niet lang daarna naar Nieuw Guinea gestuurd. Hij reisde in burgerkleding en ging officieel voor 12 maanden, maar ze kregen er in januari al meteen twee maanden bij, zonder verdere uitleg. In Manokwari verbleef hij met een peloton infanterie op een boot in de baai. Hier was ook de opleiding voor dienstplichtige mariniers die in Nederland hun eerste vier maanden erop hadden zitten. De eerste periode bestond uit oefeningen en patrouilles in het bos, een staaltje van �showing the flag�. De compagnie van deze marinier werd ingezet bij acties in januari 1962 op het eiland Batanta. Hun taak was om infiltranten te onderscheppen en de zaak in de gaten te houden. De sfeer werd gaandeweg grimmiger. Ook raakte deze marinier gewond door een zwaar ongeval aan boord."
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/TimeInterval": [
+      {
+        "@value": "00:00:00-03:00:00"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi/Contact",
+    "https://dataverse.org/schema/cmdi/Address": [
+      {
+        "@value": "P.O. Box 125, 3940 AC Doorn, The Netherlands"
+      },
+      {
+        "@value": "P.O. Box 93067, 2509 AB Den Haag, The Netherlands"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Email": [
+      {
+        "@value": "info@dans.knaw.nl"
+      },
+      {
+        "@value": "ipnv@veteraneninstituut.nl"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Organisation": [
+      {
+        "@value": "Veterans Institute"
+      },
+      {
+        "@value": "Data Archiving and Networked Services (DANS)"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Person": [
+      {
+        "@value": "Stef Scagliola"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Telephone": [
+      {
+        "@value": "+31 343 474150"
+      },
+      {
+        "@value": "+31 70 3446484"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Website": [
+      {
+        "@value": "www.dans.knaw.nl"
+      },
+      {
+        "@value": "www.veteraneninstituut.nl"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi/SpeechTechnicalMetadata",
+    "https://dataverse.org/schema/cmdi/BitResolution": [
+      {
+        "@value": "16"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/ByteOrder": [
+      {
+        "@value": "little endian"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Compression": [
+      {
+        "@value": "none"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/NumberOfChannels": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/SamplingFrequency": [
+      {
+        "@value": "16000"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi/Actor",
+    "https://dataverse.org/schema/cmdi/Age": [
+      {
+        "@value": "65"
+      },
+      {
+        "@value": "32"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Anonymized": [
+      {
+        "@value": "true"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/BirthYear": [
+      {
+        "@value": "1974"
+      },
+      {
+        "@value": "1941"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Education": [
+      {
+        "@value": "WO"
+      },
+      {
+        "@value": "Unknown"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/FullName": [
+      {
+        "@value": "restricted access"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Name": [
+      {
+        "@value": "restricted access"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Profession": [
+      {
+        "@value": "restricted access"
+      },
+      {
+        "@value": "redacteur"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Role": [
+      {
+        "@value": "interviewee"
+      },
+      {
+        "@value": "interviewer"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Sex": [
+      {
+        "@value": "Male"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/SocialFamilyRole": [
+      {
+        "@value": "restricted access"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi/InterviewContent",
+    "https://dataverse.org/schema/cmdi/Language": [
+      {
+        "@value": "Dutch"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi/Header",
+    "https://dataverse.org/schema/cmdi/MdSelfLink": [
+      {
+        "@value": "None"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi/Resources",
+    "https://dataverse.org/schema/cmdi/JournalFileProxyList": [
+      {
+        "@value": "None"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/ResourceRelationList": [
+      {
+        "@value": "None"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi/ISO639",
+    "https://dataverse.org/schema/cmdi/iso-639-3-code": [
+      {
+        "@value": "nld"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi/InterviewGeneral",
+    "https://dataverse.org/schema/cmdi/CreationDate": [
+      {
+        "@value": "2007-10-08"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Duration": [
+      {
+        "@value": "03:00:00"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Genre": [
+      {
+        "@value": "interview"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/NumberOfSpeakers": [
+      {
+        "@value": "2"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Owner": [
+      {
+        "@value": "Veterans Institute, Doorn, The Netherlands"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/PublicationDate": [
+      {
+        "@value": "2013-03-01"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi/Location",
+    "https://dataverse.org/schema/cmdi/Address": [
+      {
+        "@value": "often stated in the first part of the audio recording"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Region": [
+      {
+        "@value": "Unknown"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi/Mission",
+    "https://dataverse.org/schema/cmdi/SpatialCoverage": [
+      {
+        "@value": "Nieuw-Guinea"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/TimeCoverage": [
+      {
+        "@value": "1945-1962"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi/InterviewAudio",
+    "https://dataverse.org/schema/cmdi/AudioFileName": [
+      {
+        "@value": "IPNV_270.wav"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/AudioFormat": [
+      {
+        "@value": "WAV"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/MediaType": [
+      {
+        "@value": "audio"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/MicrophoneType": [
+      {
+        "@value": "hardware internal"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/RecordingPlatformHardware": [
+      {
+        "@value": "Edirol R-09 24-bit WAV/MP3 Recorder"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/RecordingPlatformSoftware": [
+      {
+        "@value": "hardware internal"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi/TopicList",
+    "https://dataverse.org/schema/cmdi/Topic": [
+      {
+        "@value": "topic list available through access contact"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi/Interviewee",
+    "https://dataverse.org/schema/cmdi/BirthPlace": [
+      {
+        "@value": "De Steeg (gemeente Rheden)"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi/Creator",
+    "https://dataverse.org/schema/cmdi/Role": [
+      {
+        "@value": "Project Manager"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi",
+    "https://dataverse.org/schema/cmdi/#document": [
+      {
+        "@id": "https://dataverse.org/schema/cmdi/CMD"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Access": [
+      {
+        "@id": "https://dataverse.org/schema/cmdi/Contact"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Actor": [
+      {
+        "@id": "https://dataverse.org/schema/cmdi/ActorLanguages"
+      },
+      {
+        "@id": "https://dataverse.org/schema/cmdi/BirthCountry"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/ActorLanguage": [
+      {
+        "@id": "https://dataverse.org/schema/cmdi/Language"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/ActorLanguages": [
+      {
+        "@id": "https://dataverse.org/schema/cmdi/ActorLanguage"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/BirthCountry": [
+      {
+        "@id": "https://dataverse.org/schema/cmdi/Country"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/CMD": [
+      {
+        "@id": "https://dataverse.org/schema/cmdi/Components"
+      },
+      {
+        "@id": "https://dataverse.org/schema/cmdi/Resources"
+      },
+      {
+        "@id": "https://dataverse.org/schema/cmdi/Header"
+      },
+      {
+        "@id": "https://dataverse.org/schema/cmdi/#attributes"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Components": [
+      {
+        "@id": "https://dataverse.org/schema/cmdi/OralHistoryInterviewDANS"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Creator": [
+      {
+        "@id": "https://dataverse.org/schema/cmdi/Contact"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Creators": [
+      {
+        "@id": "https://dataverse.org/schema/cmdi/Creator"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/False": [
+      {
+        "@id": "https://dataverse.org/schema/cmdi/#document"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/InterviewAudio": [
+      {
+        "@id": "https://dataverse.org/schema/cmdi/SpeechTechnicalMetadata"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/InterviewContent": [
+      {
+        "@id": "https://dataverse.org/schema/cmdi/InterviewSummary"
+      },
+      {
+        "@id": "https://dataverse.org/schema/cmdi/TopicList"
+      },
+      {
+        "@id": "https://dataverse.org/schema/cmdi/Mission"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/InterviewGeneral": [
+      {
+        "@id": "https://dataverse.org/schema/cmdi/Access"
+      },
+      {
+        "@id": "https://dataverse.org/schema/cmdi/Modality"
+      },
+      {
+        "@id": "https://dataverse.org/schema/cmdi/Location"
+      },
+      {
+        "@id": "https://dataverse.org/schema/cmdi/Multilinguality"
+      },
+      {
+        "@id": "https://dataverse.org/schema/cmdi/Creators"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/InterviewMethod": [
+      {
+        "@id": "https://dataverse.org/schema/cmdi/TopicList"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Interviewee": [
+      {
+        "@id": "https://dataverse.org/schema/cmdi/Actor"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Interviewer": [
+      {
+        "@id": "https://dataverse.org/schema/cmdi/Actor"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Language": [
+      {
+        "@id": "https://dataverse.org/schema/cmdi/ISO639"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Location": [
+      {
+        "@id": "https://dataverse.org/schema/cmdi/Country"
+      },
+      {
+        "@id": "https://dataverse.org/schema/cmdi/Continent"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/OralHistoryInterviewDANS": [
+      {
+        "@id": "https://dataverse.org/schema/cmdi/InterviewContent"
+      },
+      {
+        "@id": "https://dataverse.org/schema/cmdi/InterviewGeneral"
+      },
+      {
+        "@id": "https://dataverse.org/schema/cmdi/InterviewMethod"
+      },
+      {
+        "@id": "https://dataverse.org/schema/cmdi/Interviewer"
+      },
+      {
+        "@id": "https://dataverse.org/schema/cmdi/Interviewee"
+      },
+      {
+        "@id": "https://dataverse.org/schema/cmdi/InterviewAudio"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/Resources": [
+      {
+        "@id": "https://dataverse.org/schema/cmdi/ResourceProxyList"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/SpeechTechnicalMetadata": [
+      {
+        "@id": "https://dataverse.org/schema/cmdi/MimeType"
+      }
+    ]
+  },
+  {
+    "@id": "https://dataverse.org/schema/cmdi/Access",
+    "https://dataverse.org/schema/cmdi/Availability": [
+      {
+        "@value": "All data including audio is accessible for authorised researchers."
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/CatalogueLink": [
+      {
+        "@value": "urn:nbn:nl:ui:13-k0n-lpw"
+      }
+    ],
+    "https://dataverse.org/schema/cmdi/DistributionMedium": [
+      {
+        "@value": "Distribution medium will be decided in consultation with Access Contact"
+      }
+    ]
+  }
+]

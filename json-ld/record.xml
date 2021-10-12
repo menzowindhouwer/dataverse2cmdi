@@ -1,0 +1,2068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<array xmlns="http://www.w3.org/2005/xpath-functions">
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/InterviewKeyWords</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@id">_:Nbf57f0c5983e4f3db691522b8269f3c8</string>
+      </map>
+      <map>
+        <string key="@id">_:N293224ceb91d484c81ea34c82fa84ce6</string>
+      </map>
+      <map>
+        <string key="@id">_:N26925991d05245a5a6662180d868aee1</string>
+      </map>
+      <map>
+        <string key="@id">_:Nad7da5e65cd04b05b90dd47657859963</string>
+      </map>
+      <map>
+        <string key="@id">_:Naf6d1b53cf23462c9b9cfdd1fd1b6dbd</string>
+      </map>
+      <map>
+        <string key="@id">_:N4c69c59198594780a00605f8e222632c</string>
+      </map>
+      <map>
+        <string key="@id">_:N694060eeb3664ebf89de0d1078c4b744</string>
+      </map>
+      <map>
+        <string key="@id">_:N14277f4b6e104fad8c0cfb02de17e41f</string>
+      </map>
+      <map>
+        <string key="@id">_:Nb2e8c0a10455404b8392602e4d85bf68</string>
+      </map>
+      <map>
+        <string key="@id">_:N8c82adfc6fad4c2293b1f227970bdd28</string>
+      </map>
+      <map>
+        <string key="@id">_:Ndc0da02554da465cb68525c57efd7d83</string>
+      </map>
+      <map>
+        <string key="@id">_:Nf90d6e7384e84269871929c004073e28</string>
+      </map>
+      <map>
+        <string key="@id">_:Nfd1d22c5097444a69f8ee2bea3ed17be</string>
+      </map>
+      <map>
+        <string key="@id">_:Nfb773a4d62c149fdbd748c2295f5163d</string>
+      </map>
+      <map>
+        <string key="@id">_:N1ce2db1f3bf64d3a816a1be0387b6129</string>
+      </map>
+      <map>
+        <string key="@id">_:Ne21b7058e4884790b881c5e01302be62</string>
+      </map>
+      <map>
+        <string key="@id">_:N945a42905139488c9fdce0240f9018d5</string>
+      </map>
+      <map>
+        <string key="@id">_:Ne47066758d9e4aca9e2baebf910b83a5</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nbf57f0c5983e4f3db691522b8269f3c8</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@id">_:Nada5a941f53c47aaba40baf1a4b78899</string>
+      </map>
+      <map>
+        <string key="@id">_:N54c78d28930b4425b8b490957b501492</string>
+      </map>
+      <map>
+        <string key="@id">_:N14b205a5187644b994de271986aaaae4</string>
+      </map>
+      <map>
+        <string key="@id">_:N4ea20fc8d07444adb808acba4e4cac7e</string>
+      </map>
+      <map>
+        <string key="@id">_:N43b99302fb8745f0b19de9f93b2e5fb1</string>
+      </map>
+      <map>
+        <string key="@id">_:N4ef9494265054d25bd322ebb25698f86</string>
+      </map>
+      <map>
+        <string key="@id">_:N8e0e94fe5b094b51a313d9f54bc6d67a</string>
+      </map>
+      <map>
+        <string key="@id">_:N3a60e241a6064fd982f65978e8bcf9c3</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/TimeInterval">
+      <map>
+        <string key="@value">02:20:00-02:30:00</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nada5a941f53c47aaba40baf1a4b78899</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Aansprakelijkheid</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N54c78d28930b4425b8b490957b501492</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Miskenning</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N14b205a5187644b994de271986aaaae4</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Thuiskomen</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N4ea20fc8d07444adb808acba4e4cac7e</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Gebrek aan nazorg</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N43b99302fb8745f0b19de9f93b2e5fb1</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Nazorg Defensie</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N4ef9494265054d25bd322ebb25698f86</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Uitkering</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N8e0e94fe5b094b51a313d9f54bc6d67a</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Invaliditeit</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N3a60e241a6064fd982f65978e8bcf9c3</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Aankomst in Nederland</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N293224ceb91d484c81ea34c82fa84ce6</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@id">_:Ncd8ed4c7656a49ba92f780c3121ef598</string>
+      </map>
+      <map>
+        <string key="@id">_:Neeb64bbf048140e99923f33d3a0ea17d</string>
+      </map>
+      <map>
+        <string key="@id">_:N6faaebb231c54629a62da4ec4d250271</string>
+      </map>
+      <map>
+        <string key="@id">_:Nf059ccb127694fd5a443e79de9e1b52c</string>
+      </map>
+      <map>
+        <string key="@id">_:N2a13d1cf0a0645eb9241d4da99d55e84</string>
+      </map>
+      <map>
+        <string key="@id">_:N1f1889a4816541b28dff545e24857429</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/TimeInterval">
+      <map>
+        <string key="@value">02:00:00-02:10:00</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Ncd8ed4c7656a49ba92f780c3121ef598</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Ongelukken</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Neeb64bbf048140e99923f33d3a0ea17d</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Terugreis</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N6faaebb231c54629a62da4ec4d250271</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Gewonden</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nf059ccb127694fd5a443e79de9e1b52c</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Overdracht</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N2a13d1cf0a0645eb9241d4da99d55e84</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Impact op persoonlijke ontwikkeling</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N1f1889a4816541b28dff545e24857429</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Ziek tijdens uitzending</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N26925991d05245a5a6662180d868aee1</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@id">_:Nb6db6d97e90a44b3abe01381d9315088</string>
+      </map>
+      <map>
+        <string key="@id">_:N64f274a0ce9f4f4f90449fe23513c140</string>
+      </map>
+      <map>
+        <string key="@id">_:N8bff6a3a08b348ae9ee66956a96bf680</string>
+      </map>
+      <map>
+        <string key="@id">_:N00de5a3167cb4e539237f7c3eeb78a53</string>
+      </map>
+      <map>
+        <string key="@id">_:Nf1d199ff1031470299d0fd8bfe5d2e59</string>
+      </map>
+      <map>
+        <string key="@id">_:Nd4efa05e36b1494aa0c23294619e143c</string>
+      </map>
+      <map>
+        <string key="@id">_:N0bc3bad874aa47eeb3250dabbaf643e6</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/TimeInterval">
+      <map>
+        <string key="@value">01:20:00-01:30:00</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nb6db6d97e90a44b3abe01381d9315088</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Moreel</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N64f274a0ce9f4f4f90449fe23513c140</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Over de schreef</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N8bff6a3a08b348ae9ee66956a96bf680</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Indonesische infiltraties</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N00de5a3167cb4e539237f7c3eeb78a53</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Afzien</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nf1d199ff1031470299d0fd8bfe5d2e59</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Krijgsgevangenen</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nd4efa05e36b1494aa0c23294619e143c</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Impact op persoonlijke ontwikkeling</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N0bc3bad874aa47eeb3250dabbaf643e6</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Bangmakerij</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nad7da5e65cd04b05b90dd47657859963</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@id">_:N8c07daa781844ca28b2c13057e6bd617</string>
+      </map>
+      <map>
+        <string key="@id">_:Neae20ed2bf7b496b84e813ae287f49b3</string>
+      </map>
+      <map>
+        <string key="@id">_:Nbdf110fa00094605b7a92e1e83d892a0</string>
+      </map>
+      <map>
+        <string key="@id">_:N5b7f9177bf794d87812e537d1f9ea074</string>
+      </map>
+      <map>
+        <string key="@id">_:N8098cbeb25e54648b38f445088e5be2c</string>
+      </map>
+      <map>
+        <string key="@id">_:N726ecf541c6f4232aa6a69c06d43b510</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/TimeInterval">
+      <map>
+        <string key="@value">02:40:00-02:50:00</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N8c07daa781844ca28b2c13057e6bd617</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Gebrek aan nazorg</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Neae20ed2bf7b496b84e813ae287f49b3</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Belastende herinneringen</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nbdf110fa00094605b7a92e1e83d892a0</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Onderscheidingen</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N5b7f9177bf794d87812e537d1f9ea074</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Frustratie</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N8098cbeb25e54648b38f445088e5be2c</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Miskenning</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N726ecf541c6f4232aa6a69c06d43b510</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Invaliditeit</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Naf6d1b53cf23462c9b9cfdd1fd1b6dbd</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@id">_:Nb101464b43624633876fe0383fb28146</string>
+      </map>
+      <map>
+        <string key="@id">_:N74c98d3d51ac4e2b8bfd0d42854d2b57</string>
+      </map>
+      <map>
+        <string key="@id">_:N181137f680e448208a03833b7156bf04</string>
+      </map>
+      <map>
+        <string key="@id">_:N408142bf3423482e913cf39d6c496c89</string>
+      </map>
+      <map>
+        <string key="@id">_:N4126a533c3fe46a497eb84523cc84276</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/TimeInterval">
+      <map>
+        <string key="@value">02:10:00-02:20:00</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nb101464b43624633876fe0383fb28146</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Ziek tijdens uitzending</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N74c98d3d51ac4e2b8bfd0d42854d2b57</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Invaliditeit</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N181137f680e448208a03833b7156bf04</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Impact op persoonlijke ontwikkeling</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N408142bf3423482e913cf39d6c496c89</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Gewonden</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N4126a533c3fe46a497eb84523cc84276</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Gezondheidsklachten na terugkeer</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N4c69c59198594780a00605f8e222632c</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Impact op persoonlijke ontwikkeling</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/TimeInterval">
+      <map>
+        <string key="@value">02:50:00-03:00:00</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N694060eeb3664ebf89de0d1078c4b744</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@id">_:Nefd67089bd494a339c7a1b8be01433c6</string>
+      </map>
+      <map>
+        <string key="@id">_:Ndee2ad1e2f924461bcc372be984d052a</string>
+      </map>
+      <map>
+        <string key="@id">_:Na715c0b78f034ba0acca95e5893f3bec</string>
+      </map>
+      <map>
+        <string key="@id">_:N6717aa2519bf407b9bd1b98e097439cd</string>
+      </map>
+      <map>
+        <string key="@id">_:Nae21d46a34dc40298da9aca080320331</string>
+      </map>
+      <map>
+        <string key="@id">_:Nf9555c1337b04680afb05e9b3c6f5922</string>
+      </map>
+      <map>
+        <string key="@id">_:N89682da3423c44c48fc8e912f75c621d</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/TimeInterval">
+      <map>
+        <string key="@value">00:30:00-00:40:00</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nefd67089bd494a339c7a1b8be01433c6</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Slechte voorbereiding</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Ndee2ad1e2f924461bcc372be984d052a</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Functie en taak</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Na715c0b78f034ba0acca95e5893f3bec</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Papoea#39</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N6717aa2519bf407b9bd1b98e097439cd</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Aankomst missiegebied</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nae21d46a34dc40298da9aca080320331</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Beschrijving legering</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nf9555c1337b04680afb05e9b3c6f5922</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Eerste indrukken</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N89682da3423c44c48fc8e912f75c621d</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">s</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N14277f4b6e104fad8c0cfb02de17e41f</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@id">_:Na1db4ca131754248984910aff8ffb34a</string>
+      </map>
+      <map>
+        <string key="@id">_:N84dafacb9f4441f9ac143eea63a63bcc</string>
+      </map>
+      <map>
+        <string key="@id">_:N65989417333b418dbdb8bfed081336b8</string>
+      </map>
+      <map>
+        <string key="@id">_:N309ae2eefee943ac9d7beda5ad1ba4c1</string>
+      </map>
+      <map>
+        <string key="@id">_:Naea57e038fe64c74b0f865a246c0dcdc</string>
+      </map>
+      <map>
+        <string key="@id">_:Na2b6ba25f3ee46ddabc411d8df3573e4</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/TimeInterval">
+      <map>
+        <string key="@value">01:30:00-01:40:00</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Na1db4ca131754248984910aff8ffb34a</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Inspraak</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N84dafacb9f4441f9ac143eea63a63bcc</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Indonesische infiltraties</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N65989417333b418dbdb8bfed081336b8</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Angst</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N309ae2eefee943ac9d7beda5ad1ba4c1</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">HiÃ«rarchie</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Naea57e038fe64c74b0f865a246c0dcdc</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Bedreigende situaties</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Na2b6ba25f3ee46ddabc411d8df3573e4</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Onderofficieren</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nb2e8c0a10455404b8392602e4d85bf68</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@id">_:N318e522407894ef69cc06db9b87c0e76</string>
+      </map>
+      <map>
+        <string key="@id">_:N62e12e972ab6422b95fcdd020a70a82e</string>
+      </map>
+      <map>
+        <string key="@id">_:N41f7612900094c81a36cf6f384d39e0a</string>
+      </map>
+      <map>
+        <string key="@id">_:Nadb6ebd69d5643f28346b6e7989403b8</string>
+      </map>
+      <map>
+        <string key="@id">_:N3c6d61668bcf45fba0145bada47b195f</string>
+      </map>
+      <map>
+        <string key="@id">_:N219ddc273f794b26aeeff80ad4a203e3</string>
+      </map>
+      <map>
+        <string key="@id">_:N12ff7bce0a4840719032fc190ebf39e2</string>
+      </map>
+      <map>
+        <string key="@id">_:Nd9bff3db4ffd4cfca9962d82369c4b3a</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/TimeInterval">
+      <map>
+        <string key="@value">02:30:00-02:40:00</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N318e522407894ef69cc06db9b87c0e76</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Impact op persoonlijke ontwikkeling</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N62e12e972ab6422b95fcdd020a70a82e</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">ReÃ¼nies</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N41f7612900094c81a36cf6f384d39e0a</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Teleurgesteld in defensie</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nadb6ebd69d5643f28346b6e7989403b8</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Miskenning</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N3c6d61668bcf45fba0145bada47b195f</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Onderscheidingen</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N219ddc273f794b26aeeff80ad4a203e3</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Verwerking</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N12ff7bce0a4840719032fc190ebf39e2</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Invaliditeit</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nd9bff3db4ffd4cfca9962d82369c4b3a</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Doofpot</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N8c82adfc6fad4c2293b1f227970bdd28</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@id">_:Nf8877877818746b78e9fb9bf723a85e7</string>
+      </map>
+      <map>
+        <string key="@id">_:N3ea1eba26d1d4f8cb940992d0dc5e00e</string>
+      </map>
+      <map>
+        <string key="@id">_:N2cde9079ac314c7292d42b811f35da04</string>
+      </map>
+      <map>
+        <string key="@id">_:N175b04e3fbb24344b5dfff683ebaf824</string>
+      </map>
+      <map>
+        <string key="@id">_:N3c4ed3c713354b2f89953284f0f2693f</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/TimeInterval">
+      <map>
+        <string key="@value">00:20:00-00:30:00</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nf8877877818746b78e9fb9bf723a85e7</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Informatievoorziening</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N3ea1eba26d1d4f8cb940992d0dc5e00e</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Wijde wereld</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N2cde9079ac314c7292d42b811f35da04</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Eerste indrukken</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N175b04e3fbb24344b5dfff683ebaf824</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Duur uitzending</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N3c4ed3c713354b2f89953284f0f2693f</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Afscheid thuisfront</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Ndc0da02554da465cb68525c57efd7d83</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@id">_:N2eb91b3a88c34ff193a0cb3d3ced3191</string>
+      </map>
+      <map>
+        <string key="@id">_:Ncc22642a5b0f4f79b2b4aeed6370099d</string>
+      </map>
+      <map>
+        <string key="@id">_:Nf58363e15d6c46a5baa251c554e16b5b</string>
+      </map>
+      <map>
+        <string key="@id">_:N63930ea0bce64cc9a0a4f85d10bec555</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/TimeInterval">
+      <map>
+        <string key="@value">00:10:00-00:20:00</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N2eb91b3a88c34ff193a0cb3d3ced3191</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Militaire dienstplicht</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Ncc22642a5b0f4f79b2b4aeed6370099d</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Functie en taak</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nf58363e15d6c46a5baa251c554e16b5b</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Kennisgeving uitzending</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N63930ea0bce64cc9a0a4f85d10bec555</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Beroepskader</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nf90d6e7384e84269871929c004073e28</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@id">_:N90ede28614dd493bb815ae2a61d527b4</string>
+      </map>
+      <map>
+        <string key="@id">_:N7af3ae2d315f46b1b6317a45afea7d8b</string>
+      </map>
+      <map>
+        <string key="@id">_:Nddab4bbca26f4c1d8391941eeadbfffe</string>
+      </map>
+      <map>
+        <string key="@id">_:N9fbf9c05b79a44db8381c561785135c8</string>
+      </map>
+      <map>
+        <string key="@id">_:Na7f82130a1024997b7184b662c1ef9b7</string>
+      </map>
+      <map>
+        <string key="@id">_:N6bb933473f704bc5b95430c4e9b3d2e8</string>
+      </map>
+      <map>
+        <string key="@id">_:Nea647314a28d4d9d9455a6c937823d7c</string>
+      </map>
+      <map>
+        <string key="@id">_:Nc407b5ba14c84b54b2fefbf4d272017a</string>
+      </map>
+      <map>
+        <string key="@id">_:Nc83fee7254b14bcc8d02490433dcfd13</string>
+      </map>
+      <map>
+        <string key="@id">_:N10dd8bb43f51498a865520985c879930</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/TimeInterval">
+      <map>
+        <string key="@value">01:50:00-02:00:00</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N90ede28614dd493bb815ae2a61d527b4</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Sancties</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N7af3ae2d315f46b1b6317a45afea7d8b</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Legerarts</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nddab4bbca26f4c1d8391941eeadbfffe</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Indonesische infiltraties</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N9fbf9c05b79a44db8381c561785135c8</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">s</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Na7f82130a1024997b7184b662c1ef9b7</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Militaire discipline</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N6bb933473f704bc5b95430c4e9b3d2e8</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Geestelijke verzorging</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nea647314a28d4d9d9455a6c937823d7c</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Roofbouw plegen gezondheid</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nc407b5ba14c84b54b2fefbf4d272017a</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Overspannen collega#39</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nc83fee7254b14bcc8d02490433dcfd13</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Patrouilles</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N10dd8bb43f51498a865520985c879930</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Angst</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nfd1d22c5097444a69f8ee2bea3ed17be</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@id">_:N38a87f256b574475aeb2575b0cd35c2c</string>
+      </map>
+      <map>
+        <string key="@id">_:N6ee5fc8c33cf463cbd83b813e1781f7f</string>
+      </map>
+      <map>
+        <string key="@id">_:Na06bcdeaee074a5db9b661c9ecf1b92a</string>
+      </map>
+      <map>
+        <string key="@id">_:N5b4ced52eed24f8bb66b4051840c87bc</string>
+      </map>
+      <map>
+        <string key="@id">_:Nd05431e283b341ef8c0c656b2f7eb740</string>
+      </map>
+      <map>
+        <string key="@id">_:N02e695e5b0bf496a8348dcc49b46dfa7</string>
+      </map>
+      <map>
+        <string key="@id">_:Nb5be2ebd5ac44b5e8e5a4470d7445794</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/TimeInterval">
+      <map>
+        <string key="@value">01:00:00-01:10:00</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N38a87f256b574475aeb2575b0cd35c2c</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Emotionele verharding</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N6ee5fc8c33cf463cbd83b813e1781f7f</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Afzien</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Na06bcdeaee074a5db9b661c9ecf1b92a</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Verwerking</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N5b4ced52eed24f8bb66b4051840c87bc</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Korps Mariniers</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nd05431e283b341ef8c0c656b2f7eb740</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Indonesische infiltraties</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N02e695e5b0bf496a8348dcc49b46dfa7</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Patrouilles</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nb5be2ebd5ac44b5e8e5a4470d7445794</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Terugkeerreis</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nfb773a4d62c149fdbd748c2295f5163d</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@id">_:N55ef483c52a94d669a78fde4f4a22726</string>
+      </map>
+      <map>
+        <string key="@id">_:N3a6a53065b1048c49fa06af100234c1a</string>
+      </map>
+      <map>
+        <string key="@id">_:Nb9c72eec9d0d499a8c60811a4ca7e010</string>
+      </map>
+      <map>
+        <string key="@id">_:N5926b5083042424b91e0b51e02c5b405</string>
+      </map>
+      <map>
+        <string key="@id">_:N04b488b5c005401c9776f264931c250b</string>
+      </map>
+      <map>
+        <string key="@id">_:N5136d6b74da842458518bb6185be8586</string>
+      </map>
+      <map>
+        <string key="@id">_:Ndf621ef703964aaf99023084562f289f</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/TimeInterval">
+      <map>
+        <string key="@value">01:10:00-01:20:00</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N55ef483c52a94d669a78fde4f4a22726</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">s</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N3a6a53065b1048c49fa06af100234c1a</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Inlichtingen</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nb9c72eec9d0d499a8c60811a4ca7e010</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Gesneuvelden</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N5926b5083042424b91e0b51e02c5b405</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Indonesische infiltraties</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N04b488b5c005401c9776f264931c250b</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Lokale bevolking</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N5136d6b74da842458518bb6185be8586</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Papoea#39</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Ndf621ef703964aaf99023084562f289f</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Beschrijving legering</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N1ce2db1f3bf64d3a816a1be0387b6129</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@id">_:Nb87df74ed3104c8cb76a2ad0be925c66</string>
+      </map>
+      <map>
+        <string key="@id">_:N83487055cfed4054bc9ca8cfe6870741</string>
+      </map>
+      <map>
+        <string key="@id">_:N0feb0a9c9acd4a11a0fc6b61af597793</string>
+      </map>
+      <map>
+        <string key="@id">_:N3cbf1918f8054ce4b3c4079597dcd363</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/TimeInterval">
+      <map>
+        <string key="@value">00:00:00-00:10:00</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nb87df74ed3104c8cb76a2ad0be925c66</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Militaire opleiding</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N83487055cfed4054bc9ca8cfe6870741</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Onderofficiersopleiding</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N0feb0a9c9acd4a11a0fc6b61af597793</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Korps Mariniers</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N3cbf1918f8054ce4b3c4079597dcd363</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Militaire dienstplicht</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Ne21b7058e4884790b881c5e01302be62</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@id">_:N9b47344fb79840edad7a7894009e6280</string>
+      </map>
+      <map>
+        <string key="@id">_:N794cd0d9ff3c490ba2c5d6cd16f0eb65</string>
+      </map>
+      <map>
+        <string key="@id">_:N1411fcbc6b4d467ca5e4389fb4b51c05</string>
+      </map>
+      <map>
+        <string key="@id">_:Na5abe13d09e048a7b61bcd24cec69533</string>
+      </map>
+      <map>
+        <string key="@id">_:N6281041338e74277b7b2ebb9889f1d2f</string>
+      </map>
+      <map>
+        <string key="@id">_:Nd5f7adf1dcb04b6c93105754e79c9bd6</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/TimeInterval">
+      <map>
+        <string key="@value">00:50:00-01:00:00</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N9b47344fb79840edad7a7894009e6280</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Patrouilles</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N794cd0d9ff3c490ba2c5d6cd16f0eb65</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Dood kameraad</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N1411fcbc6b4d467ca5e4389fb4b51c05</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Afzien</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Na5abe13d09e048a7b61bcd24cec69533</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Begrafenis militair</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N6281041338e74277b7b2ebb9889f1d2f</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Oefening in het veld</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nd5f7adf1dcb04b6c93105754e79c9bd6</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Klimatologische omstandigheden</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N945a42905139488c9fdce0240f9018d5</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@id">_:N2c4998b42648474f909c09168aca0e51</string>
+      </map>
+      <map>
+        <string key="@id">_:N20776c66fe0c443887bfbf765acdb973</string>
+      </map>
+      <map>
+        <string key="@id">_:Nf085f1325caf41a491a948cdf6c94d9a</string>
+      </map>
+      <map>
+        <string key="@id">_:N0e2c8c84130c4a42ad448431265063fd</string>
+      </map>
+      <map>
+        <string key="@id">_:N2a892ab3f5e24e20b2db714f20836e02</string>
+      </map>
+      <map>
+        <string key="@id">_:N616d32ecd0b8458b91d67416eb70dde6</string>
+      </map>
+      <map>
+        <string key="@id">_:N63bb7e7c46a64d05b536a3deb1304b4e</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/TimeInterval">
+      <map>
+        <string key="@value">00:40:00-00:50:00</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N2c4998b42648474f909c09168aca0e51</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Korps Mariniers</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N20776c66fe0c443887bfbf765acdb973</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Medische zorg</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nf085f1325caf41a491a948cdf6c94d9a</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Hospik</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N0e2c8c84130c4a42ad448431265063fd</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Contact met lokale bevolking</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N2a892ab3f5e24e20b2db714f20836e02</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Papoea#39</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N616d32ecd0b8458b91d67416eb70dde6</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Patrouilles</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N63bb7e7c46a64d05b536a3deb1304b4e</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">s</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Ne47066758d9e4aca9e2baebf910b83a5</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@id">_:N28906f93653a431ba07e5b6dc1290f57</string>
+      </map>
+      <map>
+        <string key="@id">_:N5cc065aea5d7426fb5a4f8fe595d8352</string>
+      </map>
+      <map>
+        <string key="@id">_:N7e86b8785dad4a03be3958f469fda66d</string>
+      </map>
+      <map>
+        <string key="@id">_:N3779bd3ea1da482e9acd856f4279e5eb</string>
+      </map>
+      <map>
+        <string key="@id">_:N9890c8a712a9451b856a597dce8cc3af</string>
+      </map>
+      <map>
+        <string key="@id">_:Ncc8b11b0dbad4955b51f0a2772900df0</string>
+      </map>
+      <map>
+        <string key="@id">_:Nabcf213070b342ac90d1d907969ba630</string>
+      </map>
+      <map>
+        <string key="@id">_:Nf97330d8b57442b7bed2419a2832f0eb</string>
+      </map>
+      <map>
+        <string key="@id">_:Na2db5fbe746044e9b955f9817dff2d31</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/TimeInterval">
+      <map>
+        <string key="@value">01:40:00-01:50:00</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N28906f93653a431ba07e5b6dc1290f57</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Legerarts</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N5cc065aea5d7426fb5a4f8fe595d8352</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Werkdruk</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N7e86b8785dad4a03be3958f469fda66d</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Kameraadschap</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N3779bd3ea1da482e9acd856f4279e5eb</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Afzien</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:N9890c8a712a9451b856a597dce8cc3af</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Elkaar erdoorheen slepen</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Ncc8b11b0dbad4955b51f0a2772900df0</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Korps Mariniers</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nabcf213070b342ac90d1d907969ba630</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Gevoel van veiligheid</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Nf97330d8b57442b7bed2419a2832f0eb</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Roofbouw plegen gezondheid</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">_:Na2db5fbe746044e9b955f9817dff2d31</string>
+    <array key="https://dataverse.org/schema/cmdi/Keyword">
+      <map>
+        <string key="@value">Anekdotes</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/Language</string>
+    <array key="https://dataverse.org/schema/cmdi/LanguageName">
+      <map>
+        <string key="@value">Dutch</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/MimeType</string>
+    <array key="https://dataverse.org/schema/cmdi/MimeType">
+      <map>
+        <string key="@value">audio/vnd.wave</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/Continent</string>
+    <array key="https://dataverse.org/schema/cmdi/Code">
+      <map>
+        <string key="@value">EU</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/Country</string>
+    <array key="https://dataverse.org/schema/cmdi/Code">
+      <map>
+        <string key="@value">NL</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/Modality</string>
+    <array key="https://dataverse.org/schema/cmdi/Modality">
+      <map>
+        <string key="@value">Spoken</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/OralHistoryInterviewDANS</string>
+    <array key="https://dataverse.org/schema/cmdi/ID">
+      <map>
+        <string key="@value">IPNV_270</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/InterviewMethod</string>
+    <array key="https://dataverse.org/schema/cmdi/DataCollectionMethod">
+      <map>
+        <string key="@value">recording at interviewees home</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/InterviewSort">
+      <map>
+        <string key="@value">semi structured</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/PreInterviewInformation">
+      <map>
+        <string key="@value">introduction letter + telephone call</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/RecruitmentMethod">
+      <map>
+        <string key="@value">mailing, contact persons, advertisements</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/#attributes</string>
+    <array key="https://dataverse.org/schema/cmdi/CMDVersion">
+      <map>
+        <string key="@value">1.1</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/xmlns">
+      <map>
+        <string key="@value">http://www.clarin.eu/cmd/</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/xmlns:xsi">
+      <map>
+        <string key="@value">http://www.w3.org/2001/XMLSchema-instance</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/xsi:schemaLocation">
+      <map>
+        <string key="@value">http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1369752611610/xsd</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/Multilinguality</string>
+    <array key="https://dataverse.org/schema/cmdi/Multilinguality">
+      <map>
+        <string key="@value">Monolingual</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/InterviewSummary</string>
+    <array key="https://dataverse.org/schema/cmdi/Summary">
+      <map>
+        <string key="@value">Op 1 januari 1961 kwam deze avontuurlijk ingestelde man in dienst bij het Korps Mariniers in Doorn. Na 8 maanden opleiding aan de Militaire Kaderschool kreeg hij als onderofficier een tropenkeuring en werd niet lang daarna naar Nieuw Guinea gestuurd. Hij reisde in burgerkleding en ging officieel voor 12 maanden, maar ze kregen er in januari al meteen twee maanden bij, zonder verdere uitleg. In Manokwari verbleef hij met een peloton infanterie op een boot in de baai. Hier was ook de opleiding voor dienstplichtige mariniers die in Nederland hun eerste vier maanden erop hadden zitten. De eerste periode bestond uit oefeningen en patrouilles in het bos, een staaltje van �showing the flag�. De compagnie van deze marinier werd ingezet bij acties in januari 1962 op het eiland Batanta. Hun taak was om infiltranten te onderscheppen en de zaak in de gaten te houden. De sfeer werd gaandeweg grimmiger. Ook raakte deze marinier gewond door een zwaar ongeval aan boord.</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/TimeInterval">
+      <map>
+        <string key="@value">00:00:00-03:00:00</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/Contact</string>
+    <array key="https://dataverse.org/schema/cmdi/Address">
+      <map>
+        <string key="@value">P.O. Box 125, 3940 AC Doorn, The Netherlands</string>
+      </map>
+      <map>
+        <string key="@value">P.O. Box 93067, 2509 AB Den Haag, The Netherlands</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Email">
+      <map>
+        <string key="@value">info@dans.knaw.nl</string>
+      </map>
+      <map>
+        <string key="@value">ipnv@veteraneninstituut.nl</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Organisation">
+      <map>
+        <string key="@value">Veterans Institute</string>
+      </map>
+      <map>
+        <string key="@value">Data Archiving and Networked Services (DANS)</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Person">
+      <map>
+        <string key="@value">Stef Scagliola</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Telephone">
+      <map>
+        <string key="@value">+31 343 474150</string>
+      </map>
+      <map>
+        <string key="@value">+31 70 3446484</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Website">
+      <map>
+        <string key="@value">www.dans.knaw.nl</string>
+      </map>
+      <map>
+        <string key="@value">www.veteraneninstituut.nl</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/SpeechTechnicalMetadata</string>
+    <array key="https://dataverse.org/schema/cmdi/BitResolution">
+      <map>
+        <string key="@value">16</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/ByteOrder">
+      <map>
+        <string key="@value">little endian</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Compression">
+      <map>
+        <string key="@value">none</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/NumberOfChannels">
+      <map>
+        <string key="@value">1</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/SamplingFrequency">
+      <map>
+        <string key="@value">16000</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/Actor</string>
+    <array key="https://dataverse.org/schema/cmdi/Age">
+      <map>
+        <string key="@value">65</string>
+      </map>
+      <map>
+        <string key="@value">32</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Anonymized">
+      <map>
+        <string key="@value">true</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/BirthYear">
+      <map>
+        <string key="@value">1974</string>
+      </map>
+      <map>
+        <string key="@value">1941</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Education">
+      <map>
+        <string key="@value">WO</string>
+      </map>
+      <map>
+        <string key="@value">Unknown</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/FullName">
+      <map>
+        <string key="@value">restricted access</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Name">
+      <map>
+        <string key="@value">restricted access</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Profession">
+      <map>
+        <string key="@value">restricted access</string>
+      </map>
+      <map>
+        <string key="@value">redacteur</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Role">
+      <map>
+        <string key="@value">interviewee</string>
+      </map>
+      <map>
+        <string key="@value">interviewer</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Sex">
+      <map>
+        <string key="@value">Male</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/SocialFamilyRole">
+      <map>
+        <string key="@value">restricted access</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/InterviewContent</string>
+    <array key="https://dataverse.org/schema/cmdi/Language">
+      <map>
+        <string key="@value">Dutch</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/Header</string>
+    <array key="https://dataverse.org/schema/cmdi/MdSelfLink">
+      <map>
+        <string key="@value">None</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/Resources</string>
+    <array key="https://dataverse.org/schema/cmdi/JournalFileProxyList">
+      <map>
+        <string key="@value">None</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/ResourceRelationList">
+      <map>
+        <string key="@value">None</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/ISO639</string>
+    <array key="https://dataverse.org/schema/cmdi/iso-639-3-code">
+      <map>
+        <string key="@value">nld</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/InterviewGeneral</string>
+    <array key="https://dataverse.org/schema/cmdi/CreationDate">
+      <map>
+        <string key="@value">2007-10-08</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Duration">
+      <map>
+        <string key="@value">03:00:00</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Genre">
+      <map>
+        <string key="@value">interview</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/NumberOfSpeakers">
+      <map>
+        <string key="@value">2</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Owner">
+      <map>
+        <string key="@value">Veterans Institute, Doorn, The Netherlands</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/PublicationDate">
+      <map>
+        <string key="@value">2013-03-01</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/Location</string>
+    <array key="https://dataverse.org/schema/cmdi/Address">
+      <map>
+        <string key="@value">often stated in the first part of the audio recording</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Region">
+      <map>
+        <string key="@value">Unknown</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/Mission</string>
+    <array key="https://dataverse.org/schema/cmdi/SpatialCoverage">
+      <map>
+        <string key="@value">Nieuw-Guinea</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/TimeCoverage">
+      <map>
+        <string key="@value">1945-1962</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/InterviewAudio</string>
+    <array key="https://dataverse.org/schema/cmdi/AudioFileName">
+      <map>
+        <string key="@value">IPNV_270.wav</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/AudioFormat">
+      <map>
+        <string key="@value">WAV</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/MediaType">
+      <map>
+        <string key="@value">audio</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/MicrophoneType">
+      <map>
+        <string key="@value">hardware internal</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/RecordingPlatformHardware">
+      <map>
+        <string key="@value">Edirol R-09 24-bit WAV/MP3 Recorder</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/RecordingPlatformSoftware">
+      <map>
+        <string key="@value">hardware internal</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/TopicList</string>
+    <array key="https://dataverse.org/schema/cmdi/Topic">
+      <map>
+        <string key="@value">topic list available through access contact</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/Interviewee</string>
+    <array key="https://dataverse.org/schema/cmdi/BirthPlace">
+      <map>
+        <string key="@value">De Steeg (gemeente Rheden)</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/Creator</string>
+    <array key="https://dataverse.org/schema/cmdi/Role">
+      <map>
+        <string key="@value">Project Manager</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi</string>
+    <array key="https://dataverse.org/schema/cmdi/#document">
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/CMD</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Access">
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/Contact</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Actor">
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/ActorLanguages</string>
+      </map>
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/BirthCountry</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/ActorLanguage">
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/Language</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/ActorLanguages">
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/ActorLanguage</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/BirthCountry">
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/Country</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/CMD">
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/Components</string>
+      </map>
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/Resources</string>
+      </map>
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/Header</string>
+      </map>
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/#attributes</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Components">
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/OralHistoryInterviewDANS</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Creator">
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/Contact</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Creators">
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/Creator</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/False">
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/#document</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/InterviewAudio">
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/SpeechTechnicalMetadata</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/InterviewContent">
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/InterviewSummary</string>
+      </map>
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/TopicList</string>
+      </map>
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/Mission</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/InterviewGeneral">
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/Access</string>
+      </map>
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/Modality</string>
+      </map>
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/Location</string>
+      </map>
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/Multilinguality</string>
+      </map>
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/Creators</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/InterviewMethod">
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/TopicList</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Interviewee">
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/Actor</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Interviewer">
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/Actor</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Language">
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/ISO639</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Location">
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/Country</string>
+      </map>
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/Continent</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/OralHistoryInterviewDANS">
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/InterviewContent</string>
+      </map>
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/InterviewGeneral</string>
+      </map>
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/InterviewMethod</string>
+      </map>
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/Interviewer</string>
+      </map>
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/Interviewee</string>
+      </map>
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/InterviewAudio</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/Resources">
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/ResourceProxyList</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/SpeechTechnicalMetadata">
+      <map>
+        <string key="@id">https://dataverse.org/schema/cmdi/MimeType</string>
+      </map>
+    </array>
+  </map>
+  <map>
+    <string key="@id">https://dataverse.org/schema/cmdi/Access</string>
+    <array key="https://dataverse.org/schema/cmdi/Availability">
+      <map>
+        <string key="@value">All data including audio is accessible for authorised researchers.</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/CatalogueLink">
+      <map>
+        <string key="@value">urn:nbn:nl:ui:13-k0n-lpw</string>
+      </map>
+    </array>
+    <array key="https://dataverse.org/schema/cmdi/DistributionMedium">
+      <map>
+        <string key="@value">Distribution medium will be decided in consultation with Access Contact</string>
+      </map>
+    </array>
+  </map>
+</array>

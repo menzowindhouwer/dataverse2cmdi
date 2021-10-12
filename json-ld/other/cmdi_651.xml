@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMD CMDVersion="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1369752611610/xsd" xmlns="http://www.clarin.eu/cmd/">
+   <Header>
+      <MdSelfLink></MdSelfLink>
+   </Header>
+   <Resources>
+      <ResourceProxyList>
+      </ResourceProxyList>
+      <JournalFileProxyList/>
+      <ResourceRelationList/>
+   </Resources>
+   <Components>
+      <OralHistoryInterviewDANS>
+         <ID>IPNV_651</ID>
+         <InterviewGeneral>
+            <NumberOfSpeakers>2</NumberOfSpeakers>
+            <CreationDate>2009-01-28</CreationDate>
+            <PublicationDate>2013-03-01</PublicationDate>
+            <Duration>02:20:00</Duration>
+            <Owner>Veterans Institute, Doorn, The Netherlands</Owner>
+            <Genre>interview</Genre>
+            <Modality>
+               <Modality>Spoken</Modality>
+            </Modality>
+            <Multilinguality>
+               <Multilinguality>Monolingual</Multilinguality>
+            </Multilinguality>
+            <Access>
+               <Availability>All data including audio is accessible for authorised researchers.</Availability>
+               <DistributionMedium>Distribution medium will be decided in consultation with Access Contact</DistributionMedium>
+               <CatalogueLink>urn:nbn:nl:ui:13-m2c-op8</CatalogueLink>
+               <Contact>
+                  <Address>P.O. Box 93067, 2509 AB Den Haag, The Netherlands</Address>
+                  <Email>info@dans.knaw.nl</Email>
+                  <Organisation>Data Archiving and Networked Services (DANS)</Organisation>
+                  <Telephone>+31 70 3446484</Telephone>
+                  <Website>www.dans.knaw.nl</Website>
+               </Contact>
+            </Access>
+            <Creators>
+               <Creator>
+                  <Role>Project Manager</Role>
+                  <Contact>
+                     <Person>Stef Scagliola</Person>
+                     <Address>P.O. Box 125, 3940 AC Doorn, The Netherlands</Address>
+                     <Email>ipnv@veteraneninstituut.nl</Email>
+                     <Organisation>Veterans Institute</Organisation>
+                     <Telephone>+31 343 474150</Telephone>
+                     <Website>www.veteraneninstituut.nl</Website>
+                  </Contact>
+               </Creator>
+            </Creators>
+            <Location>
+               <Address>often stated in the first part of the audio recording</Address>
+               <Region>Unknown</Region>
+               <Country>
+                  <Code>NL</Code>
+               </Country>
+               <Continent>
+                  <Code>EU</Code>
+               </Continent>
+            </Location>
+         </InterviewGeneral>
+         <InterviewContent>
+            <Language>Dutch</Language>
+            <InterviewKeyWords>
+               <TimeInterval>00:00:00-00:10:00</TimeInterval>
+               <Keyword>Koloniale samenleving</Keyword>
+               <Keyword>Jaren dertig</Keyword>
+               <Keyword>Cultuurverschillen</Keyword>
+            </InterviewKeyWords>
+            <InterviewKeyWords>
+               <TimeInterval>00:10:00-00:20:00</TimeInterval>
+               <Keyword>Verzet</Keyword>
+               <Keyword>Bezettingstijd</Keyword>
+               <Keyword>Onderduiken</Keyword>
+            </InterviewKeyWords>
+            <InterviewKeyWords>
+               <TimeInterval>00:20:00-00:30:00</TimeInterval>
+               <Keyword>NSB</Keyword>
+               <Keyword>Bezettingstijd</Keyword>
+               <Keyword>Nasleep WOII</Keyword>
+               <Keyword>Koloniale samenleving</Keyword>
+               <Keyword>Strijd tegen Japan</Keyword>
+               <Keyword>Motivatie</Keyword>
+               <Keyword>Oorlogsvrijwilligers</Keyword>
+               <Keyword>Vrijwillige aanmelding</Keyword>
+            </InterviewKeyWords>
+            <InterviewKeyWords>
+               <TimeInterval>00:30:00-00:40:00</TimeInterval>
+               <Keyword>Oorlogsvrijwilligers</Keyword>
+               <Keyword>Boot naar IndiÃ«</Keyword>
+               <Keyword>KNIL</Keyword>
+               <Keyword>Talenkennis</Keyword>
+               <Keyword>Tegenwerking Engelsen IndiÃ«</Keyword>
+               <Keyword>Reis naar inzetgebied</Keyword>
+               <Keyword>Eerste indrukken</Keyword>
+            </InterviewKeyWords>
+            <InterviewKeyWords>
+               <TimeInterval>00:40:00-00:50:00</TimeInterval>
+               <Keyword>Dumpen materieel</Keyword>
+               <Keyword>Ziek tijdens uitzending</Keyword>
+               <Keyword>Patrouilles</Keyword>
+               <Keyword>Anekdotes</Keyword>
+               <Keyword>Geweldsinstructies</Keyword>
+               <Keyword>Verkeersongevallen</Keyword>
+            </InterviewKeyWords>
+            <InterviewKeyWords>
+               <TimeInterval>00:50:00-01:00:00</TimeInterval>
+               <Keyword>Onafhankelijkheid IndonesiÃ«</Keyword>
+               <Keyword>Soekarno</Keyword>
+               <Keyword>Pelopors</Keyword>
+               <Keyword>Zin van uitzending</Keyword>
+               <Keyword>Politiek</Keyword>
+            </InterviewKeyWords>
+            <InterviewKeyWords>
+               <TimeInterval>01:00:00-01:10:00</TimeInterval>
+               <Keyword>Informatievoorziening</Keyword>
+               <Keyword>Manschappen vs kader</Keyword>
+               <Keyword>ReÃ¼nies</Keyword>
+               <Keyword>Rangen en standen</Keyword>
+               <Keyword>Eigen waarneming vs officiÃ«le rapportage</Keyword>
+               <Keyword>Order is order</Keyword>
+               <Keyword>Administratie</Keyword>
+            </InterviewKeyWords>
+            <InterviewKeyWords>
+               <TimeInterval>01:10:00-01:20:00</TimeInterval>
+               <Keyword>Rangen en standen</Keyword>
+               <Keyword>Manschappen vs kader</Keyword>
+               <Keyword>Collegiale conflicten</Keyword>
+               <Keyword>Functie en taak</Keyword>
+            </InterviewKeyWords>
+            <InterviewKeyWords>
+               <TimeInterval>01:20:00-01:30:00</TimeInterval>
+               <Keyword>TNI</Keyword>
+               <Keyword>Patrouilles</Keyword>
+               <Keyword>Zwaargewonde collega#39</Keyword>
+               <Keyword>s</Keyword>
+               <Keyword>Onderhandelen met lokale autoriteiten</Keyword>
+               <Keyword>Lokale militairen</Keyword>
+               <Keyword>In vijandig gebied</Keyword>
+               <Keyword>Gebrekkige communicatie</Keyword>
+            </InterviewKeyWords>
+            <InterviewKeyWords>
+               <TimeInterval>01:30:00-01:40:00</TimeInterval>
+               <Keyword>Afscheid missiegebied</Keyword>
+               <Keyword>Contact met lokale bevolking</Keyword>
+               <Keyword>Voldoening</Keyword>
+               <Keyword>Zin van uitzending</Keyword>
+               <Keyword>Eerste politionele actie</Keyword>
+               <Keyword>Krijgsgevangenen</Keyword>
+            </InterviewKeyWords>
+            <InterviewKeyWords>
+               <TimeInterval>01:40:00-01:50:00</TimeInterval>
+               <Keyword>Publieke opinie</Keyword>
+               <Keyword>Thuiskomen</Keyword>
+               <Keyword>Demobilisatie na IndiÃ«</Keyword>
+               <Keyword>Werk vinden na terugkeer</Keyword>
+               <Keyword>Jaren vijftig</Keyword>
+               <Keyword>Aanpassingsproblemen</Keyword>
+               <Keyword>Terug in gezinsleven</Keyword>
+            </InterviewKeyWords>
+            <InterviewKeyWords>
+               <TimeInterval>01:50:00-02:00:00</TimeInterval>
+               <Keyword>ReÃ¼nies</Keyword>
+               <Keyword>Veteranenactiviteiten</Keyword>
+               <Keyword>Verhaal niet kwijt kunnen</Keyword>
+            </InterviewKeyWords>
+            <InterviewKeyWords>
+               <TimeInterval>02:00:00-02:10:00</TimeInterval>
+               <Keyword>Herhalingsoefeningen</Keyword>
+               <Keyword>Ruilhandel</Keyword>
+               <Keyword>Eten en drinken</Keyword>
+               <Keyword>Manschappen vs kader</Keyword>
+               <Keyword>Rangen en standen</Keyword>
+               <Keyword>Saamhorigheidsgevoel</Keyword>
+               <Keyword>Kameraadschap</Keyword>
+               <Keyword>Veteranenstatus</Keyword>
+            </InterviewKeyWords>
+            <InterviewKeyWords>
+               <TimeInterval>02:10:00-02:20:00</TimeInterval>
+               <Keyword>Veteraneninstituut</Keyword>
+               <Keyword>Landelijke veteranendag</Keyword>
+               <Keyword>Herdenkingen</Keyword>
+               <Keyword>Impact op persoonlijke ontwikkeling</Keyword>
+            </InterviewKeyWords>
+            <InterviewSummary>
+               <TimeInterval>00:00:00-02:20:00</TimeInterval>
+               <Summary>De geinterviewde is geboren in1926 in Nederlands-Indie. In 1936 kwam hij in Nederland wonen. Hij vertelt over de druk tijdens de Duitse bezetting. Na een oproep voor de Arbeitseinsatz dook hij onder. Hij en zijn vader waren betrokken bij verzetsactiviteiten. Na de bevrijding melde hij zich als oorlogsvrijwilliger bij de Stoottroepen. In 1945 ging hij op de MS Alcantara naar Indie. Via kamp Chaa kwam hij op Menado, hij herkende zijn moederland. Hierna ging hij naar Bali, waar hij niet bij gevechten betrokken was. De geinterviewde vertelt over de politieke situatie en zijn gevoelens daar bij. Hij vertelt over de bersiap periode na de capitualtie van Japan. Hij betreurt het nog altijd dat het niet gelukt is om de onafhankelijkheid op een geweldloze manier te realiseren. Hij geeft zijn mening over het boek 1000 dagen in indie. Hij vindt dat het veel aspecten niet goed weergeeft. Hij vertelt over commandanten en patrouilles. In 1948 keerde hij terug naar Nederland. Hij moest eerst even aanpassen. Geleidelijk aan vond hij geschikt werk dat hij tot zijn 57e heeft gedaan.</Summary>
+            </InterviewSummary>
+            <TopicList>
+            </TopicList>
+            <Mission>
+               <SpatialCoverage>Nederlands-IndiÃ«</SpatialCoverage>
+               <TimeCoverage>1945-1950</TimeCoverage>
+            </Mission>
+         </InterviewContent>
+         <InterviewMethod>
+            <InterviewSort>semi structured</InterviewSort>
+            <RecruitmentMethod>mailing, contact persons, advertisements</RecruitmentMethod>
+            <PreInterviewInformation>introduction letter + telephone call</PreInterviewInformation>
+            <DataCollectionMethod>recording at interviewees home</DataCollectionMethod>
+            <TopicList>
+               <Topic>topic list available through access contact</Topic>
+            </TopicList>
+         </InterviewMethod>
+         <Interviewee>
+            <BirthPlace>Soerabaja, Nederlands-Indië</BirthPlace>
+            <Actor>
+               <Role>interviewee</Role>
+               <Name>restricted access</Name>
+               <FullName>restricted access</FullName>
+               <SocialFamilyRole>restricted access</SocialFamilyRole>
+               <Age>83</Age>
+               <BirthYear>1926</BirthYear>
+               <Sex>Male</Sex>
+               <Education>Mulo en verschillende deeltijd cursussen</Education>
+               <Profession>restricted access</Profession>
+               <Anonymized>true</Anonymized>
+               <BirthCountry>
+                  <Country>
+                     <Code>NL</Code>
+                  </Country>
+               </BirthCountry>
+               <ActorLanguages>
+                  <ActorLanguage>
+                     <Language>
+                        <LanguageName>Dutch</LanguageName>
+                        <ISO639>
+                           <iso-639-3-code>nld</iso-639-3-code>
+                        </ISO639>
+                     </Language>
+                  </ActorLanguage>
+               </ActorLanguages>
+            </Actor>
+         </Interviewee>
+         <Interviewer>
+            <Actor>
+               <Role>interviewer</Role>
+               <Age>48</Age>
+               <BirthYear>1960</BirthYear>
+               <Sex>Male</Sex>
+               <Education>HBO</Education>
+               <Profession>onderzoeker</Profession>
+               <Anonymized>true</Anonymized>
+               <BirthCountry>
+                  <Country>
+                     <Code>NL</Code>
+                  </Country>
+               </BirthCountry>
+               <ActorLanguages>
+                  <ActorLanguage>
+                     <Language>
+                        <LanguageName>Dutch</LanguageName>
+                        <ISO639>
+                           <iso-639-3-code>nld</iso-639-3-code>
+                        </ISO639>
+                     </Language>
+                  </ActorLanguage>
+               </ActorLanguages>
+            </Actor>
+         </Interviewer>
+         <InterviewAudio>
+            <AudioFileName>IPNV_651.wav</AudioFileName>
+            <AudioFormat>WAV</AudioFormat>
+            <RecordingPlatformHardware>Edirol R-09 24-bit WAV/MP3 Recorder</RecordingPlatformHardware>
+            <RecordingPlatformSoftware>hardware internal</RecordingPlatformSoftware>
+            <MicrophoneType>hardware internal</MicrophoneType>
+            <MediaType>audio</MediaType>
+            <SpeechTechnicalMetadata>
+               <SamplingFrequency>16000</SamplingFrequency>
+               <NumberOfChannels>1</NumberOfChannels>
+               <ByteOrder>little endian</ByteOrder>
+               <Compression>none</Compression>
+               <BitResolution>16</BitResolution>
+               <MimeType>
+                  <MimeType>audio/vnd.wave</MimeType>
+               </MimeType>
+            </SpeechTechnicalMetadata>
+         </InterviewAudio>
+      </OralHistoryInterviewDANS>
+   </Components>
+</CMD>
