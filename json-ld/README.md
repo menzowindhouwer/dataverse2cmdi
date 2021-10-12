@@ -9,7 +9,7 @@ see [do.sh](./do.sh)
 
 1. In the input there are two Actors, each with their own Age. In the JSON-LD Ages become:
 
-```json
+```javascript
 "@id": "https://dataverse.org/schema/cmdi/Actor",
   "https://dataverse.org/schema/cmdi/Age": [
    {
