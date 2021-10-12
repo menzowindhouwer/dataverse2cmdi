@@ -5,7 +5,7 @@
 
 see [do.sh](./do.sh)
 
-##Issues:
+## Issues:
 
 1. In the input there are two Actors, each with their own Age. In the JSON-LD Ages become:
 
