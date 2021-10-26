@@ -1,6 +1,6 @@
 # dataverse json-ld2cmdi
 
-1. turn record json-ld to xml using [js2xml.xsl](../json/js2xml.xsl)]
+1. turn record json-ld to xml using [js2xml.xsl](../json/js2xml.xsl)
 2. turn the record xml to CMDI using [jsonld2cmdi.xsl](./jsonld2cmdi.xsl)
 
 see [do.sh](./do.sh)
