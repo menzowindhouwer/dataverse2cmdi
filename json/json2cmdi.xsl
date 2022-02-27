@@ -4,22 +4,23 @@
     xmlns:cmd="http://www.clarin.eu/cmd/1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:js="http://www.w3.org/2005/xpath-functions"
-    exclude-result-prefixes="xs"
+    exclude-result-prefixes="xs xsi js"
     version="3.0">  
     
     <xsl:template match="text()"/>
     
     <xsl:variable name="profs" as="node()*">
-        <prof block="citation" id="clarin.eu:cr1:p_1639731773881"/>
+        <prof block="citation" root="citationProfile" id="clarin.eu:cr1:p_1639731773881"/>
     </xsl:variable>
     
     <xsl:template match="js:map[@key='metadataBlocks']">
         <xsl:variable name="block" select="js:map/@key"/>
         <!--<xsl:message expand-text="yes">block[{$block}]</xsl:message>-->
+        <xsl:variable name="root" select="$profs[@block=$block]/@root"/>
         <xsl:variable name="prof" select="$profs[@block=$block]/@id"/>
         <!--<xsl:message expand-text="yes">profile[{$prof}]</xsl:message>-->
         <xsl:variable name="ns" select="concat('http://www.clarin.eu/cmd/1/profiles/',$prof)"/>
-        <cmd:CMD  xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/{$prof}/xsd" CMDVersion="1.2">
+        <cmd:CMD  xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/{$prof} https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/{$prof}/xsd" CMDVersion="1.2">
             <xsl:namespace name="cmdp" select="$ns"/>                    
             <cmd:Header>
                 <cmd:MdProfile xsl:expand-text="yes">{$prof}</cmd:MdProfile>
@@ -30,7 +31,7 @@
                 <cmd:ResourceRelationList/>
             </cmd:Resources>
             <cmd:Components>
-                <xsl:element name="cmdp:{$block}" namespace="{$ns}">
+                <xsl:element name="cmdp:{$root}" namespace="{$ns}">
                     <xsl:apply-templates select="js:map[@key=$block]/js:array[@key='fields']/*">
                         <xsl:with-param name="ns" select="$ns" tunnel="yes"></xsl:with-param>
                     </xsl:apply-templates>
