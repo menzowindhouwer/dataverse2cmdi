@@ -2,6 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:math="http://www.w3.org/2005/xpath-functions/math"
+    xmlns:cue="http://www.clarin.eu/cmd/cues/1"
     exclude-result-prefixes="xs math"
     version="3.0">
     
@@ -65,6 +66,9 @@
             <Component name="{$name}"  CardinalityMin="1" CardinalityMax="1">
                 <xsl:for-each select="$tsv/row[normalize-space(elem[normalize-space(@name)='parent'])=''][normalize-space(elem[normalize-space(@name)='fieldType'])!='none']">
                     <Element name="{elem[normalize-space(@name)='name']}">
+                        <xsl:if test="position()=1">
+                            <xsl:attribute name="cue:DisplayPriority" select="'1'"/>
+                        </xsl:if>
                         <xsl:call-template name="cardinalities"/>
                         <xsl:call-template name="vocab"/>
                     </Element>
@@ -75,6 +79,9 @@
                         <xsl:call-template name="cardinalities"/>
                         <xsl:for-each select="$tsv/row[normalize-space(elem[normalize-space(@name)='parent'])=$name][normalize-space(elem[normalize-space(@name)='fieldType'])!='none']">
                             <Element name="{elem[normalize-space(@name)='name']}" CardinalityMin="1" CardinalityMax="1">
+                                <xsl:if test="position()=1">
+                                    <xsl:attribute name="cue:DisplayPriority" select="'1'"/>
+                                </xsl:if>
                                 <xsl:call-template name="cardinalities"/>
                                 <xsl:call-template name="vocab"/>
                             </Element>

@@ -1,5 +1,4 @@
 
 ./bin/saxon10he.jar
 **/.DS_Store
-json/citation.tsv.00
-json/citation.tsv.01
+json/citation.tsv.*

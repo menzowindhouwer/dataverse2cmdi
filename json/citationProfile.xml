@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComponentSpec xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" isProfile="true" CMDVersion="1.2" CMDOriginalVersion="1.2" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.x/xsd/cmd-component.xsd">
+  <Header>
+    <ID/>
+    <Name>citationProfile</Name>
+    <Description/>
+    <Status>development</Status>
+  </Header>
+  <Component name="citationProfile" CardinalityMin="1" CardinalityMax="1">
+    <Element name="title" cue:DisplayPriority="1" CardinalityMin="1" CardinalityMax="1" ValueScheme="string"/>
+    <Element name="subtitle" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+    <Element name="alternativeTitle" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+    <Element name="subject" CardinalityMin="1" CardinalityMax="unbounded">
+      <ValueScheme>
+        <Vocabulary>
+          <enumeration>
+            <item>Agricultural Sciences</item>
+            <item>Arts and Humanities</item>
+            <item>Astronomy and Astrophysics</item>
+            <item>Business and Management</item>
+            <item>Chemistry</item>
+            <item>Earth and Environmental Sciences</item>
+            <item>Engineering</item>
+            <item>Medicine, Health and Life Sciences</item>
+            <item>Computer and Information Science</item>
+            <item>Law</item>
+            <item>Mathematical Sciences</item>
+            <item>Physics</item>
+            <item>Social Sciences</item>
+            <item>Other</item>
+          </enumeration>
+        </Vocabulary>
+      </ValueScheme>
+    </Element>
+    <Element name="notesText" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+    <Element name="language" CardinalityMin="0" CardinalityMax="unbounded">
+      <ValueScheme>
+        <Vocabulary>
+          <enumeration>
+            <item>Abkhaz</item>
+            <item>Afar</item>
+            <item>Afrikaans</item>
+            <item>Akan</item>
+            <item>Albanian</item>
+            <item>Amharic</item>
+            <item>Arabic</item>
+            <item>Aragonese</item>
+            <item>Armenian</item>
+            <item>Assamese</item>
+            <item>Avaric</item>
+            <item>Avestan</item>
+            <item>Aymara</item>
+            <item>Azerbaijani</item>
+            <item>Bambara</item>
+            <item>Bashkir</item>
+            <item>Basque</item>
+            <item>Belarusian</item>
+            <item>Bengali, Bangla</item>
+            <item>Bihari</item>
+            <item>Bislama</item>
+            <item>Bosnian</item>
+            <item>Breton</item>
+            <item>Bulgarian</item>
+            <item>Burmese</item>
+            <item>Catalan,Valencian</item>
+            <item>Chamorro</item>
+            <item>Chechen</item>
+            <item>Chichewa, Chewa, Nyanja</item>
+            <item>Chinese</item>
+            <item>Chuvash</item>
+            <item>Cornish</item>
+            <item>Corsican</item>
+            <item>Cree</item>
+            <item>Croatian</item>
+            <item>Czech</item>
+            <item>Danish</item>
+            <item>Divehi, Dhivehi, Maldivian</item>
+            <item>Dutch</item>
+            <item>Dzongkha</item>
+            <item>English</item>
+            <item>Esperanto</item>
+            <item>Estonian</item>
+            <item>Ewe</item>
+            <item>Faroese</item>
+            <item>Fijian</item>
+            <item>Finnish</item>
+            <item>French</item>
+            <item>Fula, Fulah, Pulaar, Pular</item>
+            <item>Galician</item>
+            <item>Georgian</item>
+            <item>German</item>
+            <item>Greek (modern)</item>
+            <item>Guaraní</item>
+            <item>Gujarati</item>
+            <item>Haitian, Haitian Creole</item>
+            <item>Hausa</item>
+            <item>Hebrew (modern)</item>
+            <item>Herero</item>
+            <item>Hindi</item>
+            <item>Hiri Motu</item>
+            <item>Hungarian</item>
+            <item>Interlingua</item>
+            <item>Indonesian</item>
+            <item>Interlingue</item>
+            <item>Irish</item>
+            <item>Igbo</item>
+            <item>Inupiaq</item>
+            <item>Ido</item>
+            <item>Icelandic</item>
+            <item>Italian</item>
+            <item>Inuktitut</item>
+            <item>Japanese</item>
+            <item>Javanese</item>
+            <item>Kalaallisut, Greenlandic</item>
+            <item>Kannada</item>
+            <item>Kanuri</item>
+            <item>Kashmiri</item>
+            <item>Kazakh</item>
+            <item>Khmer</item>
+            <item>Kikuyu, Gikuyu</item>
+            <item>Kinyarwanda</item>
+            <item>Kyrgyz</item>
+            <item>Komi</item>
+            <item>Kongo</item>
+            <item>Korean</item>
+            <item>Kurdish</item>
+            <item>Kwanyama, Kuanyama</item>
+            <item>Latin</item>
+            <item>Luxembourgish, Letzeburgesch</item>
+            <item>Ganda</item>
+            <item>Limburgish, Limburgan, Limburger</item>
+            <item>Lingala</item>
+            <item>Lao</item>
+            <item>Lithuanian</item>
+            <item>Luba-Katanga</item>
+            <item>Latvian</item>
+            <item>Manx</item>
+            <item>Macedonian</item>
+            <item>Malagasy</item>
+            <item>Malay</item>
+            <item>Malayalam</item>
+            <item>Maltese</item>
+            <item>Māori</item>
+            <item>Marathi (Marāṭhī)</item>
+            <item>Marshallese</item>
+            <item>Mongolian</item>
+            <item>Nauru</item>
+            <item>Navajo, Navaho</item>
+            <item>Northern Ndebele</item>
+            <item>Nepali</item>
+            <item>Ndonga</item>
+            <item>Norwegian Bokmål</item>
+            <item>Norwegian Nynorsk</item>
+            <item>Norwegian</item>
+            <item>Nuosu</item>
+            <item>Southern Ndebele</item>
+            <item>Occitan</item>
+            <item>Ojibwe, Ojibwa</item>
+            <item>Old Church Slavonic,Church Slavonic,Old Bulgarian</item>
+            <item>Oromo</item>
+            <item>Oriya</item>
+            <item>Ossetian, Ossetic</item>
+            <item>Panjabi, Punjabi</item>
+            <item>Pāli</item>
+            <item>Persian (Farsi)</item>
+            <item>Polish</item>
+            <item>Pashto, Pushto</item>
+            <item>Portuguese</item>
+            <item>Quechua</item>
+            <item>Romansh</item>
+            <item>Kirundi</item>
+            <item>Romanian</item>
+            <item>Russian</item>
+            <item>Sanskrit (Saṁskṛta)</item>
+            <item>Sardinian</item>
+            <item>Sindhi</item>
+            <item>Northern Sami</item>
+            <item>Samoan</item>
+            <item>Sango</item>
+            <item>Serbian</item>
+            <item>Scottish Gaelic, Gaelic</item>
+            <item>Shona</item>
+            <item>Sinhala, Sinhalese</item>
+            <item>Slovak</item>
+            <item>Slovene</item>
+            <item>Somali</item>
+            <item>Southern Sotho</item>
+            <item>Spanish, Castilian</item>
+            <item>Sundanese</item>
+            <item>Swahili</item>
+            <item>Swati</item>
+            <item>Swedish</item>
+            <item>Tamil</item>
+            <item>Telugu</item>
+            <item>Tajik</item>
+            <item>Thai</item>
+            <item>Tigrinya</item>
+            <item>Tibetan Standard, Tibetan, Central</item>
+            <item>Turkmen</item>
+            <item>Tagalog</item>
+            <item>Tswana</item>
+            <item>Tonga (Tonga Islands)</item>
+            <item>Turkish</item>
+            <item>Tsonga</item>
+            <item>Tatar</item>
+            <item>Twi</item>
+            <item>Tahitian</item>
+            <item>Uyghur, Uighur</item>
+            <item>Ukrainian</item>
+            <item>Urdu</item>
+            <item>Uzbek</item>
+            <item>Venda</item>
+            <item>Vietnamese</item>
+            <item>Volapük</item>
+            <item>Walloon</item>
+            <item>Welsh</item>
+            <item>Wolof</item>
+            <item>Western Frisian</item>
+            <item>Xhosa</item>
+            <item>Yiddish</item>
+            <item>Yoruba</item>
+            <item>Zhuang, Chuang</item>
+            <item>Zulu</item>
+            <item>Not applicable</item>
+          </enumeration>
+        </Vocabulary>
+      </ValueScheme>
+    </Element>
+    <Element name="productionDate" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+    <Element name="productionPlace" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+    <Element name="distributionDate" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+    <Element name="depositor" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+    <Element name="dateOfDeposit" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+    <Element name="kindOfData" CardinalityMin="0" CardinalityMax="unbounded" ValueScheme="string"/>
+    <Element name="relatedMaterial" CardinalityMin="0" CardinalityMax="unbounded" ValueScheme="string"/>
+    <Element name="relatedDatasets" CardinalityMin="0" CardinalityMax="unbounded" ValueScheme="string"/>
+    <Element name="otherReferences" CardinalityMin="0" CardinalityMax="unbounded" ValueScheme="string"/>
+    <Element name="dataSources" CardinalityMin="0" CardinalityMax="unbounded" ValueScheme="string"/>
+    <Element name="originOfSources" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+    <Element name="characteristicOfSources" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+    <Element name="accessToSources" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+    <Component name="otherId" CardinalityMin="0" CardinalityMax="unbounded">
+      <Element name="otherIdAgency" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" ValueScheme="string"/>
+      <Element name="otherIdValue" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+    </Component>
+    <Component name="author" CardinalityMin="0" CardinalityMax="unbounded">
+      <Element name="authorName" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" ValueScheme="string"/>
+      <Element name="authorAffiliation" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+      <Element name="authorIdentifierScheme" CardinalityMin="0" CardinalityMax="1">
+        <ValueScheme>
+          <Vocabulary>
+            <enumeration>
+              <item>ORCID</item>
+              <item>ISNI</item>
+              <item>LCNA</item>
+            </enumeration>
+          </Vocabulary>
+        </ValueScheme>
+      </Element>
+      <Element name="authorIdentifier" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+    </Component>
+    <Component name="datasetContact" CardinalityMin="0" CardinalityMax="unbounded">
+      <Element name="datasetContactName" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" ValueScheme="string"/>
+      <Element name="datasetContactAffiliation" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+      <Element name="datasetContactEmail" CardinalityMin="1" CardinalityMax="1" ValueScheme="string"/>
+    </Component>
+    <Component name="dsDescription" CardinalityMin="0" CardinalityMax="unbounded">
+      <Element name="dsDescriptionValue" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" ValueScheme="string"/>
+      <Element name="dsDescriptionDate" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+    </Component>
+    <Component name="keyword" CardinalityMin="0" CardinalityMax="unbounded">
+      <Element name="keywordValue" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" ValueScheme="string"/>
+      <Element name="keywordVocabulary" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+      <Element name="keywordVocabularyURI" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+    </Component>
+    <Component name="topicClassification" CardinalityMin="0" CardinalityMax="unbounded">
+      <Element name="topicClassValue" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" ValueScheme="string"/>
+      <Element name="topicClassVocab" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+      <Element name="topicClassVocabURI" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+    </Component>
+    <Component name="publication" CardinalityMin="0" CardinalityMax="unbounded">
+      <Element name="publicationCitation" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" ValueScheme="string"/>
+      <Element name="publicationIDType" CardinalityMin="0" CardinalityMax="1">
+        <ValueScheme>
+          <Vocabulary>
+            <enumeration>
+              <item>ark</item>
+              <item>arXiv</item>
+              <item>bibcode</item>
+              <item>doi</item>
+              <item>ean13</item>
+              <item>eissn</item>
+              <item>handle</item>
+              <item>isbn</item>
+              <item>issn</item>
+              <item>istc</item>
+              <item>lissn</item>
+              <item>lsid</item>
+              <item>pmid</item>
+              <item>purl</item>
+              <item>upc</item>
+              <item>url</item>
+              <item>urn</item>
+            </enumeration>
+          </Vocabulary>
+        </ValueScheme>
+      </Element>
+      <Element name="publicationIDNumber" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+      <Element name="publicationURL" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+    </Component>
+    <Component name="producer" CardinalityMin="0" CardinalityMax="unbounded">
+      <Element name="producerName" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" ValueScheme="string"/>
+      <Element name="producerAffiliation" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+      <Element name="producerAbbreviation" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+      <Element name="producerURL" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+      <Element name="producerLogoURL" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+    </Component>
+    <Component name="contributor" CardinalityMin="0" CardinalityMax="unbounded">
+      <Element name="contributorType" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1">
+        <ValueScheme>
+          <Vocabulary>
+            <enumeration>
+              <item>Data Collector</item>
+              <item>Data Curator</item>
+              <item>Data Manager</item>
+              <item>Editor</item>
+              <item>Funder</item>
+              <item>Hosting Institution</item>
+              <item>Project Leader</item>
+              <item>Project Manager</item>
+              <item>Project Member</item>
+              <item>Related Person</item>
+              <item>Researcher</item>
+              <item>Research Group</item>
+              <item>Rights Holder</item>
+              <item>Sponsor</item>
+              <item>Supervisor</item>
+              <item>Work Package Leader</item>
+              <item>Other</item>
+            </enumeration>
+          </Vocabulary>
+        </ValueScheme>
+      </Element>
+      <Element name="contributorName" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+    </Component>
+    <Component name="grantNumber" CardinalityMin="0" CardinalityMax="unbounded">
+      <Element name="grantNumberAgency" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" ValueScheme="string"/>
+      <Element name="grantNumberValue" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+    </Component>
+    <Component name="distributor" CardinalityMin="0" CardinalityMax="unbounded">
+      <Element name="distributorName" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" ValueScheme="string"/>
+      <Element name="distributorAffiliation" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+      <Element name="distributorAbbreviation" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+      <Element name="distributorURL" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+      <Element name="distributorLogoURL" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+    </Component>
+    <Component name="timePeriodCovered" CardinalityMin="0" CardinalityMax="unbounded">
+      <Element name="timePeriodCoveredStart" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" ValueScheme="string"/>
+      <Element name="timePeriodCoveredEnd" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+    </Component>
+    <Component name="dateOfCollection" CardinalityMin="0" CardinalityMax="unbounded">
+      <Element name="dateOfCollectionStart" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" ValueScheme="string"/>
+      <Element name="dateOfCollectionEnd" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+    </Component>
+    <Component name="series" CardinalityMin="0" CardinalityMax="1">
+      <Element name="seriesName" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" ValueScheme="string"/>
+      <Element name="seriesInformation" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+    </Component>
+    <Component name="software" CardinalityMin="0" CardinalityMax="unbounded">
+      <Element name="softwareName" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1"/>
+      <Element name="softwareVersion" CardinalityMin="0" CardinalityMax="1" ValueScheme="string"/>
+    </Component>
+  </Component>
+</ComponentSpec>

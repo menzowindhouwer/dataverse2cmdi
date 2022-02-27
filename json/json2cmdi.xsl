@@ -10,7 +10,7 @@
     <xsl:template match="text()"/>
     
     <xsl:variable name="profs" as="node()*">
-        <prof block="citation" id="clarin.eu:cr1:p_citation"/>
+        <prof block="citation" id="clarin.eu:cr1:p_1639731773881"/>
     </xsl:variable>
     
     <xsl:template match="js:map[@key='metadataBlocks']">
