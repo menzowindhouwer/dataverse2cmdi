@@ -22,7 +22,7 @@
       <cmdp:dsDescription>
         <cmdp:dsDescriptionValue>Metadata harvested from NARCIS OAI-PMH endpoint and stored as json, more than 2 million records. Can be used as a source for Augementing NARCIS project https://github.com/Dans-labs/augmenting-narcis</cmdp:dsDescriptionValue>
       </cmdp:dsDescription>
-      <cmdp:subject/>
+      <cmdp:subject>Arts and Humanities</cmdp:subject>
       <cmdp:depositor>Tykhonov, Vyacheslav</cmdp:depositor>
       <cmdp:dateOfDeposit>2019-06-02</cmdp:dateOfDeposit>
     </cmdp:citationProfile>

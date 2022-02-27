@@ -15,10 +15,8 @@
     
     <xsl:template match="js:map[@key='metadataBlocks']">
         <xsl:variable name="block" select="js:map/@key"/>
-        <!--<xsl:message expand-text="yes">block[{$block}]</xsl:message>-->
         <xsl:variable name="root" select="$profs[@block=$block]/@root"/>
         <xsl:variable name="prof" select="$profs[@block=$block]/@id"/>
-        <!--<xsl:message expand-text="yes">profile[{$prof}]</xsl:message>-->
         <xsl:variable name="ns" select="concat('http://www.clarin.eu/cmd/1/profiles/',$prof)"/>
         <cmd:CMD  xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/{$prof} https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/{$prof}/xsd" CMDVersion="1.2">
             <xsl:namespace name="cmdp" select="$ns"/>                    
@@ -42,18 +40,22 @@
     
     <xsl:template match="js:map[exists(*[@key='value'])][exists(js:string[@key='typeName'])]">
         <xsl:param name="ns" tunnel="yes"/>
+        <xsl:variable name="name" select="./js:string[@key='typeName']"/>
         <xsl:choose>
             <xsl:when test="exists(js:string[@key='value'])">
-                <!--<xsl:message expand-text="yes">value[{js:string[@key='value']}]</xsl:message>-->
-                <xsl:element name="cmdp:{./js:string[@key='typeName']}" namespace="{$ns}" expand-text="yes">{./js:string[@key='value']}</xsl:element>                
+                <xsl:element name="cmdp:{$name}" namespace="{$ns}" expand-text="yes">{./js:string[@key='value']}</xsl:element>                
             </xsl:when>
-            <xsl:when test="exists(js:array[@key='value'])">
-                <xsl:element name="cmdp:{./js:string[@key='typeName']}" namespace="{$ns}">
+            <xsl:when test="exists(js:array[@key='value']/js:string)">
+                <xsl:for-each select="js:array[@key='value']/js:string">
+                    <xsl:element name="cmdp:{$name}" namespace="{$ns}" expand-text="yes">{.}</xsl:element>                
+                </xsl:for-each>
+            </xsl:when>
+            <xsl:when test="exists(js:array[@key='value']/js:map)">
+                <xsl:element name="cmdp:{$name}" namespace="{$ns}">
                     <xsl:apply-templates select="js:array[@key='value']/*">
                         <xsl:with-param name="ns" select="$ns" tunnel="yes"></xsl:with-param>
                     </xsl:apply-templates>
                 </xsl:element>                
-  
             </xsl:when>
         </xsl:choose>
     </xsl:template>
