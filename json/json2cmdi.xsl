@@ -21,10 +21,35 @@
         <cmd:CMD  xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/{$prof} https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/{$prof}/xsd" CMDVersion="1.2">
             <xsl:namespace name="cmdp" select="$ns"/>                    
             <cmd:Header>
+                <cmd:MdCreator>
+                    <xsl:value-of select="/js:map/js:string[@key='publisher']"/>
+                </cmd:MdCreator>
+                <cmd:MdCreationDate>
+                    <xsl:value-of select="/js:map/js:string[@key='publicationDate']"/>
+                </cmd:MdCreationDate>
+                <cmd:MdSelfLink>
+                    <xsl:value-of select="/js:map/js:string[@key='persistentUrl']"/>
+                </cmd:MdSelfLink>
                 <cmd:MdProfile xsl:expand-text="yes">{$prof}</cmd:MdProfile>
             </cmd:Header>
             <cmd:Resources>
-                <cmd:ResourceProxyList/>
+                <cmd:ResourceProxyList>
+                    <xsl:for-each select="/js:map/js:map/js:array[@key='files']/js:map">
+                        <cmd:ResourceProxy id="r{position()}">
+                            <cmd:ResourceType mimetype="{.//js:string[@key='contentType']}">Resource</cmd:ResourceType>
+                            <cmd:ResourceRef>
+                                <xsl:choose>
+                                    <xsl:when test="normalize-space(.//js:string[@key='pidURL'])!=''">
+                                        <xsl:value-of select="normalize-space(.//js:string[@key='pidURL'])"/>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:text expand-text="yes">{.//js:string[@key='storageIdentifier']}/{.//js:string[@key='filename']}</xsl:text>
+                                    </xsl:otherwise>
+                                </xsl:choose></cmd:ResourceRef>
+                        </cmd:ResourceProxy>
+                        
+                    </xsl:for-each>
+                </cmd:ResourceProxyList>
                 <cmd:JournalFileProxyList/>
                 <cmd:ResourceRelationList/>
             </cmd:Resources>
