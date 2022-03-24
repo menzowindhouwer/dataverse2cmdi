@@ -29,6 +29,20 @@
         </xsl:choose>
     </xsl:template>
     
+    <xsl:template name="ConceptLink">
+        <xsl:choose>
+            <xsl:when test="normalize-space(elem[lower-case(normalize-space(@name))='conceptlink'])!=''">
+                <xsl:attribute name="ConceptLink" select="normalize-space(elem[lower-case(normalize-space(@name))='conceptlink'])"/>
+            </xsl:when>
+            <xsl:when test="normalize-space(elem[lower-case(normalize-space(@name))='concepturi'])!=''">
+                <xsl:attribute name="ConceptLink" select="normalize-space(elem[lower-case(normalize-space(@name))='concepturi'])"/>
+            </xsl:when>
+            <xsl:when test="normalize-space(elem[lower-case(normalize-space(@name))='termuri'])!=''">
+                <xsl:attribute name="ConceptLink" select="normalize-space(elem[lower-case(normalize-space(@name))='termuri'])"/>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:template>
+    
     <xsl:template name="vocab">
         <xsl:variable name="field" select="elem[normalize-space(@name)='name']"/>
         <xsl:choose>
@@ -65,24 +79,30 @@
             </Header>
             <Component name="{$name}"  CardinalityMin="1" CardinalityMax="1">
                 <xsl:for-each select="$tsv/row[normalize-space(elem[normalize-space(@name)='parent'])=''][normalize-space(elem[normalize-space(@name)='fieldType'])!='none']">
+                    <xsl:sort select="elem[normalize-space(@name)='displayOrder']" order="ascending" data-type="number"/>
                     <Element name="{elem[normalize-space(@name)='name']}">
                         <xsl:if test="position()=1">
                             <xsl:attribute name="cue:DisplayPriority" select="'1'"/>
                         </xsl:if>
                         <xsl:call-template name="cardinalities"/>
+                        <xsl:call-template name="ConceptLink"/>
                         <xsl:call-template name="vocab"/>
                     </Element>
                 </xsl:for-each>
                 <xsl:for-each select="$tsv/row[normalize-space(elem[normalize-space(@name)='parent'])=''][normalize-space(elem[normalize-space(@name)='fieldType'])='none']">
+                    <xsl:sort select="elem[normalize-space(@name)='displayOrder']" order="ascending" data-type="number"/>
                     <xsl:variable name="name" select="elem[normalize-space(@name)='name']"/>
                     <Component name="{$name}">
                         <xsl:call-template name="cardinalities"/>
+                        <xsl:call-template name="ConceptLink"/>
                         <xsl:for-each select="$tsv/row[normalize-space(elem[normalize-space(@name)='parent'])=$name][normalize-space(elem[normalize-space(@name)='fieldType'])!='none']">
+                            <xsl:sort select="elem[normalize-space(@name)='displayOrder']" order="ascending" data-type="number"/>
                             <Element name="{elem[normalize-space(@name)='name']}" CardinalityMin="1" CardinalityMax="1">
                                 <xsl:if test="position()=1">
                                     <xsl:attribute name="cue:DisplayPriority" select="'1'"/>
                                 </xsl:if>
                                 <xsl:call-template name="cardinalities"/>
+                                <xsl:call-template name="ConceptLink"/>
                                 <xsl:call-template name="vocab"/>
                             </Element>
                         </xsl:for-each>
