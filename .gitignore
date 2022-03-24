@@ -2,3 +2,5 @@
 ./bin/saxon10he.jar
 **/.DS_Store
 json/citation.tsv.*
+.vscode/settings.json
+out.xml
